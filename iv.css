@@ -10,13 +10,28 @@
 }
 
 body {
+    font-family: "Inter";
     background: #121214;
-    width: 100%;
-    margin: 10px;
 }
+
 div.banniere {
-    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.5em;
 }
+
+@media (max-width: 1067px) {
+    div.banniere {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    div.banniere h1 {
+        font-size: 3.5em;
+    }
+}
+
 div.center {
     width: 100%;
     display: flex;
