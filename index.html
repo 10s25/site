@@ -28,7 +28,7 @@
             <h1 class="mt-12">10 septembre 2025</h1>
         </header>
 
-        <button class="text-4xl flex items-center gap-3 absolute bg-rouge text-white bottom-12 right-4 px-4 py-2 z-1 cursor-pointer uppercase" x-show="!isVisible" x-transition @click="document.querySelector('#cibleScroll').scrollIntoView({ behavior: 'smooth', block: 'start' })">
+        <button class="text-4xl flex items-center gap-3 fixed bg-rouge text-white bottom-12 right-4 px-4 py-2 z-1 cursor-pointer uppercase" x-show="!isVisible" x-transition @click="document.querySelector('#cibleScroll').scrollIntoView({ behavior: 'smooth', block: 'start' })">
             <img class="w-10" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
             Nous rejoindre
         </button>
