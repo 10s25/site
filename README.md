@@ -1,11 +1,32 @@
-# site
-Site Indignons-nous 
+# Site Indignons Nous
 
-html + css, "old school".
+Un projet web utilisant [**Tailwind CSS**](https://tailwindcss.com/).
 
-Pas de libs, pas de js, pour l'instant. Merci.
+## 🚀 Démarrage
 
+### Installation
 
+```bash
+npm install
+```
+
+### Développement
+
+```bash
+npm run watch
+```
+
+> Lance le serveur de développement avec recompilation automatique via Tailwind.
+
+### Production
+
+```bash
+npm run build
+```
+
+> Génère les fichiers optimisés pour la production.
+
+## Charte graphique
 
 ![charte_1](https://github.com/user-attachments/assets/f6bc0a41-7891-4b10-a105-e0147a520b7d)
 
