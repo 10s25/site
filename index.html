@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="fr" x-data="{ isVisible: true }">
 
     <head>
         <meta charset="utf-8" />
@@ -13,6 +13,10 @@
         <link 
             href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
             rel="stylesheet">
+
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>    
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
         <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
         <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
     </head>
@@ -24,7 +28,12 @@
             <h1 class="mt-12">10 septembre 2025</h1>
         </header>
 
-        <main class="flex items-center flex-col justify-center mt-16 overflow-hidden">
+        <button class="text-4xl flex items-center gap-3 absolute bg-rouge text-white bottom-12 right-4 px-4 py-2 z-1 cursor-pointer uppercase" x-show="!isVisible" x-transition @click="document.querySelector('#cibleScroll').scrollIntoView({ behavior: 'smooth', block: 'start' })">
+            <img class="w-10" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
+            Nous rejoindre
+        </button>
+
+        <main class="flex items-center flex-col justify-center mt-26 overflow-hidden">
             <section class="-rotate-2 w-4xl bg-jaune mt-4">
 
                 <div class="rotate-2 py-12">
@@ -67,9 +76,9 @@
             </section>
 
             <section class="bg-rouge -rotate-5 flex justify-center py-12 -mt-6 origin-center w-[calc(100vw+5rem)] gap-10">
-                <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
+                <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" x-intersect:enter="isVisible = true" x-intersect:leave="isVisible = false"/>
                 <h2 class="text-white">NOUS REJOINDRE</h2>
-                <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
+                <img id="cibleScroll" class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
             </section>
 
             <section class="container mx-auto max-w-4xl gap-6 mt-18">
