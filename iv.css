@@ -8,6 +8,15 @@
     --font-gabarito: 'Gabarito', sans-serif;
 }
 
+@layer components {
+  .li-svg {
+    @apply flex items-center gap-x-3;
+  }
+  .list-svg {
+    @apply w-13 shrink-0;
+  }
+}
+
 @layer base {
     body {
         @apply text-2xl font-semibold text-noir bg-noir font-gabarito;

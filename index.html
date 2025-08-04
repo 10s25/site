@@ -34,48 +34,72 @@
         </button>
 
         <main class="flex items-center flex-col justify-center mt-26 overflow-hidden">
-            <section class="-rotate-2 w-4xl bg-jaune mt-4">
+            <section class="-rotate-2 w-4xl bg-jaune mt-4 overflow-hidden">
 
-                <div class="rotate-2 py-12">
+                <div class="py-12">
 
-                    <h2 class="text-center">Les raisons de notre colère</h2>
+                    <h2 class="text-center rotate-2">Les raisons de notre colère</h2>
 
-                    <div class="px-22">
+                    <div class="px-22 mt-4 rotate-4">
                         <p class="pb-8 pt-8">Le plan Bayrou, c’est :</p>
-                        <ol class="list-decimal list-inside">
-                            <li>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics.</li>
-                            <li>3000 postes supprimés, un fonctionnaire sur trois non remplacé.</li>
-                            <li>5 milliards retirés à la santé, franchises doublées pour les malades.</li>
-                            <li>Deux jours fériés supprimés.</li>
-                            <li>Six jours de carence en cas d’arrêt maladie.</li>
-                            <li>Aucune hausse des aides ni des pensions.</li>
+                        <ol class="space-y-6">
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                <span>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics.</span>
+                            </li>
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                3000 postes supprimés, un fonctionnaire sur trois non remplacé.
+                            </li>
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                5 milliards retirés à la santé, franchises doublées pour les malades.
+                            </li>
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                Deux jours fériés supprimés.
+                            </li>
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                Six jours de carence en cas d’arrêt maladie.
+                            </li>
+                            <li class="li-svg">
+                                <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                                Aucune hausse des aides ni des pensions.
+                            </li>
                         </ol>
                     </div>
 
+                    <div class="rotate-2 flex flex-col items-center max-w-2xl m-auto mt-12">
+                        <p>  
+                            Nous disons NON et appelons toutes les personnes résidant en
+                            France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+                        </p>
+
+                        <p class="mt-8">
+                            Nous ne voulons pas subir leur crise.<br />
+                            Nous voulons changer de cap, pour de bon, avec et pour le peuple. <br />
+                            Pas contre lui.
+                        </p>
+                    </div>
+
+
                 </div>
 
-                <div class="bg-gris py-4">
-                    <p class="text-center ">  
-                        Nous disons NON et appelons toutes les personnes résidant en France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
-                    </p>
-                </div>
-
-                <div class="rotate-2 pt-12 px-22">
-                    <p>
-                        Nous ne voulons pas subir leur crise.<br />
-                        Nous voulons changer de cap, pour de bon, avec et pour le peuple. <br />
-                        Pas contre lui.
-                    </p>
-
-                    <p class="big py-12 px-2">
+                <div class="bg-gris py-4 translate-x-[-1%] w-[102%] rotate-2">
+                    <p class="big py-12 px-2 max-w-screen-md text-center mx-auto">
                         Nous appelons chaque député à faire son devoir : voter la motion de censure contre ce plan injuste et dangereux. 
                         Les français vous regardent. <br />
                         Et ils n’oublieront pas. <br />
                     </p>
                 </div>
+
+                <div class="rotate-2 pt-12 px-22">
+                    
+                </div>
             </section>
 
-            <section class="bg-rouge -rotate-5 flex justify-center py-12 -mt-6 origin-center w-[calc(100vw+5rem)] gap-10">
+            <section class="bg-rouge -rotate-5 flex justify-center py-12 -mt-6  w-[calc(100vw+5rem)] gap-10">
                 <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" x-intersect:enter="isVisible = true" x-intersect:leave="isVisible = false"/>
                 <h2 class="text-white">NOUS REJOINDRE</h2>
                 <img id="cibleScroll" class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
