@@ -5,6 +5,7 @@
     --color-rouge: #F52639;
     --color-noir: #121214;
     --color-gris: #D9D9D9;
+    --color-vert: #63FF43;
     --font-gabarito: 'Gabarito', sans-serif;
 }
 
@@ -38,8 +39,5 @@
     }
     a {
         @apply underline font-normal hover:text-rouge duration-100 transition-colors;
-    }
-    code {
-        @apply font-normal break-all text-sm tracking-tighter;
     }
 }
