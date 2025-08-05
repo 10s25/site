@@ -7,8 +7,12 @@
     --color-gris: #D9D9D9;
     --color-vert: #63FF43;
     --font-gabarito: 'Gabarito', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
+  
 @layer components {
   .li-svg {
     @apply flex items-center gap-x-3;
@@ -17,7 +21,6 @@
     @apply w-13 shrink-0;
   }
 }
-
 @layer base {
     body {
         @apply text-2xl font-semibold text-noir bg-noir font-gabarito;
@@ -36,6 +39,7 @@
     }
     h5 {
         @apply text-base font-extrabold text-jaune uppercase py-2;
+
     }
     a {
         @apply underline font-normal hover:text-rouge duration-100 transition-colors;

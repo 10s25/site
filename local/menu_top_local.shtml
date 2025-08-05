@@ -1,2 +1,2 @@
 <!-- Élément de menu principal personnalisé pour ce site  -->
-<li><a href="local/">Actions du groupe local</a></li>
+<li class="selected"><a href="local/">Actions</a></li>
