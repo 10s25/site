@@ -1,112 +1,235 @@
 <!DOCTYPE html>
-    <html lang="fr">
+    <html lang="fr" x-data="{ isVisible: true }">
 
     <head>
         <meta charset="utf-8">
         <title>Indignons-nous !</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025">
-        <meta name="location" content="France, FRANCE">
-        <link rel="stylesheet" href="iv.css">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-                href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-                rel="stylesheet" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="keywords" lang="fr" content="Bloquons tout, Indignons-nous, 10 Septembre, 10 Septembre 2025" />
+        <meta name="location" content="France, FRANCE" />
+        <link href="output.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link 
+            href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" 
+            rel="stylesheet">
+
+        <script defer src="https://cdn.jsdelivr.net/npm/@alpinejs/intersect@3.x.x/dist/cdn.min.js"></script>    
+        <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
         <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
         <link rel="alternate icon" href="favicon.ico" type="image/x-icon">
     </head>
 
     <body>
-        <header class="banniere">
-            <img class="logo_une" src="img/logo-inbt.svg" alt="Logo Indignons-nous">
-            <h1>10 Septembre 2025</h1>
+        <!-- Header -->
+        <header class="flex flex-col items-center justify-center mt-8">
+            <img class="w-xs" src="img/logo-inbt.svg" alt="Logo Indignons-nous" />
+            <h1 class="mt-12">10 septembre 2025</h1>
         </header>
-        <div class="menu_top">
-            <ul>
-                <li class="selected"><a href="">Accueil</a></li>
-                <li><a href="visuels.html">Visuels</a></li>
-                <!--#include virtual="local/menu_top_local.shtml" -->
-                <li><a href="sites.html">Sites</a></li>
-            </ul>
-        </div>
-        <br class="clearboth">
-        <main class="center">
-            <div class="sidebar">
-                <section>
-                    <h2>Groupe national</h2>
-                    <p>
-                        <a href="https://t.me/+YNG1MrUQ3dhhYzc8">Telegram</a><br>
-                        <a href="https://www.tiktok.com/@indignons.nous?_t=ZN-8yNaVgW8ko2&_r=1">TikTok</a><br>
-                        <a href="https://www.facebook.com/share/1756itHqEv/">Page Facebook</a><br>
-                        <a href="https://www.facebook.com/share/g/1CSSg8uzbG/?mibextid=wwXIfr">Groupe Facebook</a><br>
-                        <a href="https://x.com/indignonsn?s=21&t=QD-MbK3egNj4PJFBjzTF8g">X (ex Twitter)</a>
-                    </p>
-                </section>
 
-                <section>
-                    <h2>Groupes régionaux</h2>
-                    <ul>
-                        <li><a href="https://t.me/dontpayfrance">Auvergne Rhône Alpes</a></li>
-                        <li><a href="https://t.me/+daL7pAZ2eXAxYmY0">Bourgogne Franche Comté</a></li>
-                        <li><a href="https://t.me/+2zyykrgSNYI4YmQ0">Bretagne</a></li>
-                        <li><a href="https://t.me/+1F026domhCI5Yzhk">Centre Val de Loire</a></li>
-                        <li><a href="https://t.me/+6nGU1MKqF1E1MTI0">Corsica</a></li>
-                        <li><a href="https://t.me/+DwayRkLGjxBhYjc0">Grand Est</a></li>
-                        <li><a href="https://t.me/retlHDF">Hauts de France</a></li>
-                        <li><a href="https://t.me/retlIDF">Île de France</a></li>
-                        <li><a href="https://t.me/+NY521X2MIxxhNzQ0">Normandie</a></li>
-                        <li><a href="https://t.me/+fFVATyvoOWowZjA0">Nouvelle Aquitaine</a></li>
-                        <li><a href="https://t.me/collectifsunis31">Occitanie</a></li>
-                        <li><a href="https://t.me/+k6w3Bdy4Nr81MzQ8">Outre-mer</a></li>
-                        <li><a href="https://t.me/+6nGU1MKqF1E1MTI0">PACA</a></li>
-                        <li><a href="https://t.me/+UlH4Zr3yf5FjMmRk">Pays de la Loire</a></li>
-                    </ul>
-                </section>
+        <!-- CTA vers "Nous rejoindre" -->
+        <button class="text-4xl flex items-center gap-3 fixed bg-rouge text-white bottom-12 right-4 px-4 py-2 z-1 cursor-pointer uppercase" x-show="!isVisible" x-transition @click="document.querySelector('#cibleScroll').scrollIntoView({ behavior: 'smooth', block: 'start' })">
+            <img class="w-10" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
+            Nous rejoindre
+        </button>
 
-                <section>
-                    <h2>Autres groupes de travail nationaux</h2>
-                    <p>
-                        <a href="https://t.me/+0jfTtV0l27RjZmU0">GT Marche - 10 septembre</a><br>
-                    </p>
-                </section>
+        <!-- Contenu principal -->
+        <main class="flex items-center flex-col justify-center mt-26 overflow-hidden">
 
-                <section>
-                    <h2>Groupes étrangers</h2>
-                    <ul>
-                        <li><a href="https://t.me/+vXyhM9YVjzMyOTJk">Belgique</a></li>
-                    </ul>
-                </section>
+            <!-- Première partie - post-it jaune -->
+            <section class="-rotate-2 w-4xl bg-jaune mt-4 overflow-hidden py-12">
 
-                <section>
-                    <h2>Communications sécurisées</h2>
+                <h2 class="text-center rotate-2">Les raisons de notre colère</h2>
+
+                <div class="px-22 mt-4 rotate-4">
+                    <p class="pb-8 pt-8">Le plan Bayrou, c’est :</p>
+                    <ol class="space-y-6">
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            <span>Une année blanche sans investissement dans les salaires, les retraites, ni les services publics.</span>
+                        </li>
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            3000 postes supprimés, un fonctionnaire sur trois non remplacé.
+                        </li>
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            5 milliards retirés à la santé, franchises doublées pour les malades.
+                        </li>
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            Deux jours fériés supprimés.
+                        </li>
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            Six jours de carence en cas d’arrêt maladie.
+                        </li>
+                        <li class="li-svg">
+                            <img class="list-svg" src="img/icon-rightarrow.svg" alt="Arrow Icon" />
+                            Aucune hausse des aides ni des pensions.
+                        </li>
+                    </ol>
+                </div>
+
+                <div class="rotate-2">
+                    <div class="max-w-3xl m-auto mt-12">
+                        <p>  
+                            Nous disons NON et appelons toutes les personnes résidant en
+                            France métropolitaine et dans les DOM-TOM à se mobiliser contre ce budget !
+                        </p>
+
+                        <p class="mt-8">
+                            Nous ne voulons pas subir leur crise.<br />
+                            Nous voulons changer de cap, pour de bon, avec et pour le peuple. <br />
+                            Pas contre lui.
+                        </p>
+                    </div>
+                    
+                    <div class="bg-gris py-4 translate-x-[-1%] w-[102%] mt-8">
+                        <p class="big p-2 max-w-screen-md text-center mx-auto">
+                            Nous appelons chaque député à faire son devoir :
+                            <span class="uppercase text-4xl block font-extrabold">
+                                voter la motion de censure  <br />contre ce plan injuste et dangereux.
+                            </span>
+                            
+                        </p>
+                    </div>
+
+                    <div class="pt-12 px-22 text-center font-extrabold text-[40px] uppercase">
+                        Les français vous regardent. <br />
+                        Et ils n’oublieront pas.
+
+                        <div class="flex items-center justify-center mt-8">
+                            <img class="" src="img/icon-traffic-barrier.svg" alt="Icône de barrière de circulation" />
+                            <img class="" src="img/icon-error.svg" alt="Icône de danger" />
+                            <img class="" src="img/icon-traffic-barrier.svg" alt="Icône de barrière de circulation" />
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Deuxième partie - Visuels et vidéo youtube -->
+            <section class="bg-gris pt-12 pb-26 text-center uppercase -rotate-2 w-[calc(100vw+5rem)]">
+                <div class="rotate-2">    
+                    <h2>le mouvement</h2>
+                    <h3 class="text-noir py-3">(visuels, vidéos, com etc.)</h3>
+
+                    <iframe class="mx-auto my-12" width="860" height="481" src="https://www.youtube.com/embed/VCvQnwBWc60?si=RMS0k9yEV3iWl1HR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </section>
+
+            <!-- Bandeau - Nous rejoindre -->
+            <section class="bg-rouge -rotate-5 flex justify-center py-12 -mt-7  w-[calc(100vw+5rem)] gap-10">
+                <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" x-intersect:enter="isVisible = true" x-intersect:leave="isVisible = false"/>
+                <h2 class="text-white">NOUS REJOINDRE</h2>
+                <img id="cibleScroll" class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
+            </section>
+
+            <!-- Troisième partie - Map & annuaire -->
+            <section class="container mx-auto max-w-4xl gap-6 mt-18">
+
+                <iframe width="100%" height="550px" frameborder="0" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-16 text-sm text-white" x-data="groupesData()" x-init="chargerGroupes()">
+
+                    <div>
+
+                        <div>
+                            <h3>Groupe national</h3>
+
+                           <ul class="space-y-9">
+                            
+                            <template x-for="item in groupes.nationaux" :key="item.lien">
+                                <li>
+                                    <div class="flex gap-4 items-start">
+                                        <img class="w-6 h-6" :src="'img/' + item.icone" :alt="'Logo ' + item.nom" />
+                                        <div>
+                                            <h4 x-text="item.nom"></h4>
+                                            <a class="break-all" :href="item.lien" target="_blank" x-text="item.label"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                            </template>
+        
+                           </ul> 
+
+                        </div>
+
+                        <div class="mt-12">
+                            <h3>Groupes étrangers</h3>
+
+                            <ul class="space-y-9">
+                                <template x-for="region in groupes.etrangers" :key="region.region">
+                                    <li>
+                                        <h5 x-text="region.region"></h5>
+                                        <template x-for="groupe in region.groupes" :key="groupe.lien">
+                                            <div class="flex items-center gap-x-2">                                       
+                                                <img class="w-6 h-6" :src="'img/' + groupe.icone" :alt="'Logo ' + groupe.nom" />
+                                            <h4 x-text="groupe.nom"></h4>                                        
+                                            <a target="_blank" :href="groupe.lien" x-text="groupe.label"></a>
+                                        </div>
+                                        </template>
+                                    </li>
+                                </template>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+                    <div class="justify-self-end pr-2">
+
+                        <h3>Groupes régionaux</h3>
+
+                        <ul class="space-y-9">
+                            <template x-for="region in groupes.regionaux" :key="region.region">
+                                <li>
+                                    <h5 x-text="region.region"></h5>
+                                    <template x-for="groupe in region.groupes" :key="groupe.lien">
+                                        <div class="flex items-center gap-x-2">                                       
+                                            <img class="w-6 h-6" :src="'img/' + groupe.icone" :alt="'Logo ' + groupe.nom" />
+                                        <h4 x-text="groupe.nom"></h4>                                        
+                                        <a target="_blank" :href="groupe.lien" x-text="groupe.label"></a>
+                                    </div>
+                                    </template>
+                                </li>
+                            </template>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- Quatrième partie - GPG -->
+            <section class="rotate-2 w-4xl bg-jaune mt-22 pb-12">
+                <div class="-rotate-2 p-12">
                     <p>
-                        Nos communications sont sécurisées par GPG.
-                        <br>
-                        Nos emails sont signés numériquement.
-                        <br>
-                        Si vous voulez vous assurer de l'authenticité des mails reçus, configurez votre logiciel de
-                        messagerie pour reconnaître les mails envoyés avec la clé privée associée à la clé publique
-                        ci-dessous.
+                        Nos communications sont sécurisées par <a class="font-semibold" href="https://fr.wikipedia.org/wiki/Pretty_Good_Privacy">GPG</a>. <br />
+                        Nos emails sont signés numériquement. <br />
+                        Si vous voulez vous assurer de l'authenticité des mails reçus, configurez votre logiciel de messagerie pour reconnaître les mails envoyés avec la clé privée associée à la clé publique ci-dessous.
                     </p>
-                    <h3>Notre clé publique :</h3>
-                    <p class="break-word">
-                      <code>
-mDMEaIeeuhYJKwYBBAHaRw8BAQdALNbxpCK+MNpfYiMjsfktCKN+Jvcy0S+HcuQUxIiknM60OUNvbWl0w6kgTmF0aW9uYWwgSW5kaWduZXotdm91cyA8Y29udGFjdEBpbmRpZ25vbnNub3VzLmZyPoiZBBMWCgBBFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwMFCQWkl2YFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQa4NewHKQdVHchAEAkT4c+Q1ozBP8hFZcnAFW2PVnYgl1p9AbqtWcFbQp8BwA/iNb1HAZcCLAPVz9nbS557shzmVNTHCRdMAlBPvptBEBuDgEaIeeuhIKKwYBBAGXVQEFAQEHQJ/s940GPPCsg7wEntYpJQJ4ua7e34LYpdVBKp1VsElQAwEIB4h+BBgWCgAmFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwwFCQWkl2YACgkQa4NewHKQdVElGQD+Ie70ygYC9BP+8IsbP6lmw6Rs8Mhj4dj/xmDGEZpnN0UBAJZ29gNej5WNzhD7m8+DHufJOm86IG2K408DrrkelQkD=r+K8
-                      </code>
+                    
+                    <p class="mt-8">
+                        Notre clé publique :
                     </p>
-                    <h3>C'est quoi, GPG ?</h3>
-                    <p>
-                        Vous trouverez un tutoriel en français <a href="https://linuxfr.org/news/bien-demarrer-avec-gnupg" class="font-color-yellow">ici</a>
-                        <br><br>
-                        Les emails que vous nous envoyez chiffrés avec notre clé
-                        publique ne sont pas déchiffrables par un tiers.
-                        <br><br>
-                        <i>C'est l'équivalent numérique d'une enveloppe
-                        fermée comparée à une carte postale que tout le monde peut lire.</i>
+
+                    <div class="font-normal break-all text-sm tracking-tighter text-vert bg-noir p-8">
+                        mDMEaIeeuhYJKwYBBAHaRw8BAQdALNbxpCK+MNpfYiMjsfktCKN+Jvcy0S+HcuQUxIiknM60OUNvbWl0w6kgTmF0aW9uYWwgSW5kaWduZXotdm91cyA8Y29udGFjdEBpbmRpZ25vbnNub3VzLmZyPoiZBBMWCgBBFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwMFCQWkl2YFCwkIBwICIgIGFQoJCAsCBBYCAwECHgcCF4AACgkQa4NewHKQdVHchAEAkT4c+Q1ozBP8hFZcnAFW2PVnYgl1p9AbqtWcFbQp8BwA/iNb1HAZcCLAPVz9nbS557shzmVNTHCRdMAlBPvptBEBuDgEaIeeuhIKKwYBBAGXVQEFAQEHQJ/s940GPPCsg7wEntYpJQJ4ua7e34LYpdVBKp1VsElQAwEIB4h+BBgWCgAmFiEEXCkRBQJ+qh15VHvla4NewHKQdVEFAmiHnroCGwwFCQWkl2YACgkQa4NewHKQdVElGQD+Ie70ygYC9BP+8IsbP6lmw6Rs8Mhj4dj/xmDGEZpnN0UBAJZ29gNej5WNzhD7m8+DHufJOm86IG2K408DrrkelQkD=r+K8
+                    </div>
+
+                    <p class="mt-8">
+                        Vous trouverez un tutoriel en français <a target="_blank" href="https://linuxfr.org/news/bien-demarrer-avec-gnupg" class="font-semibold">ici</a> paragraphes "Déchiffrer, vérifier un fichier" et "Chiffrer, signer des courriels". <br />
+                        Les emails que vous nous envoyez chiffrés avec notre clé publique ne sont pas déchiffrables par un tiers. <br />
+                        C'est l'équivalent numérique d'une enveloppe fermée comparée à une carte postale que tout le monde peut lire.
                     </p>
-                </section>
-            </div>
+                </div>
+
+            </section>
 
             <div class="content">
                 <section class="postit">
@@ -149,6 +272,28 @@ mDMEaIeeuhYJKwYBBAHaRw8BAQdALNbxpCK+MNpfYiMjsfktCKN+Jvcy0S+HcuQUxIiknM60OUNvbWl0
                 </div>
             </div>
         </main>
+
+        <!-- Footer -->
+        <footer class="bg-rouge -mt-6 w-full z-25 text-center py-12 relative">
+            <h2>Rendez-vous le 10 septembre 2025</h2>
+        </footer>
+        
     </body>
+
+<script>
+  function groupesData() {
+    return {
+      groupes: {
+        nationaux: [],
+        etrangers: [],
+        regionaux: []
+      },
+      async chargerGroupes() {
+        const res = await fetch('groupes.json')
+        this.groupes = await res.json()
+      }
+    }
+  }
+</script>
 
 </html>
