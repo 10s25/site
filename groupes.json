@@ -1,0 +1,203 @@
+{
+  "nationaux": [
+    {
+      "nom": "Telegram",
+      "lien": "https://t.me/+YNG1MrUQ3dhhYzc8",
+      "label": "t.me/+YNG1MrUQ3dhhYzc8",
+      "icone": "icon-telegram.svg"
+    },
+    {
+      "nom": "TikTok",
+      "lien": "https://www.tiktok.com/@indignons.nous",
+      "label": "@indignons.nous",
+      "icone": "icon-tiktok.svg"
+    },
+    {
+      "nom": "Page Facebook",
+      "lien": "https://www.facebook.com/share/1756itHqEv/",
+      "label": "Indignons nous",
+      "icone": "icon-facebook.svg"
+    },
+    {
+      "nom": "Groupe Facebook",
+      "lien": "https://www.facebook.com/share/g/1CSSg8uzbG/?mibextid=wwXIfr",
+      "label": "INDIGNONS NOUS 10 SEPTEMBRE",
+      "icone": "icon-facebook.svg"
+    },
+    {
+      "nom": "X",
+      "lien": "https://x.com/indignonsn",
+      "label": "@indignonsn",
+      "icone": "icon-x.svg"
+    }
+  ],
+  "etrangers": [
+    {
+      "region": "Belgique",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+vXyhM9YVjzMyOTJk",
+          "label": "t.me/+vXyhM9YVjzMyOTJk",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    }
+  ],
+  "regionaux": [
+    {
+      "region": "Auvergne Rhône Alpes",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/dontpayfrance",
+          "label": "t.me/dontpayfrance",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Bourgogne Franche Comté",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+daL7pAZ2eXAxYmY0",
+          "label": "t.me/+daL7pAZ2eXAxYmY0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Bretagne",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+2zyykrgSNYI4YmQ0",
+          "label": "t.me/+2zyykrgSNYI4YmQ0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Centre Val de Loire",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+1F026domhCI5Yzhk",
+          "label": "t.me/+1F026domhCI5Yzhk",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Corsica",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+6nGU1MKqF1E1MTI0",
+          "label": "t.me/+6nGU1MKqF1E1MTI0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Grand Est",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+DwayRkLGjxBhYjc0",
+          "label": "t.me/+DwayRkLGjxBhYjc0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Hauts de France",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/retlHDF",
+          "label": "t.me/retlHDF",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Île de France",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/retlIDF",
+          "label": "t.me/retlIDF",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Normandie",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+NY521X2MIxxhNzQ0",
+          "label": "t.me/+NY521X2MIxxhNzQ0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Nouvelle Aquitaine",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+fFVATyvoOWowZjA0",
+          "label": "t.me/+fFVATyvoOWowZjA0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Occitanie",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/collectifsunis31",
+          "label": "t.me/collectifsunis31",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Outre-mer",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+k6w3Bdy4Nr81MzQ8",
+          "label": "t.me/+k6w3Bdy4Nr81MzQ8",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "PACA",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+6nGU1MKqF1E1MTI0",
+          "label": "t.me/+6nGU1MKqF1E1MTI0",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    },
+    {
+      "region": "Pays de la Loire",
+      "groupes": [
+        {
+          "nom": "Telegram",
+          "lien": "https://t.me/+UlH4Zr3yf5FjMmRk",
+          "label": "t.me/+UlH4Zr3yf5FjMmRk",
+          "icone": "icon-telegram.svg"
+        }
+      ]
+    }
+  ]
+}
