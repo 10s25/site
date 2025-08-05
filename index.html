@@ -23,17 +23,22 @@
 
     <body>
 
+        <!-- Header -->
         <header class="flex flex-col items-center justify-center mt-8">
             <img class="w-xs" src="img/logo-inbt.svg" alt="Logo Indignons-nous" />
             <h1 class="mt-12">10 septembre 2025</h1>
         </header>
 
+        <!-- CTA vers "Nous rejoindre" -->
         <button class="text-4xl flex items-center gap-3 fixed bg-rouge text-white bottom-12 right-4 px-4 py-2 z-1 cursor-pointer uppercase" x-show="!isVisible" x-transition @click="document.querySelector('#cibleScroll').scrollIntoView({ behavior: 'smooth', block: 'start' })">
             <img class="w-10" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
             Nous rejoindre
         </button>
 
+        <!-- Contenu principal -->
         <main class="flex items-center flex-col justify-center mt-26 overflow-hidden">
+
+            <!-- Première partie - post-it jaune -->
             <section class="-rotate-2 w-4xl bg-jaune mt-4 overflow-hidden py-12">
 
                 <h2 class="text-center rotate-2">Les raisons de notre colère</h2>
@@ -108,6 +113,7 @@
 
             </section>
 
+            <!-- Deuxième partie - Visuels et vidéo youtube -->
             <section class="bg-gris pt-12 pb-26 text-center uppercase -rotate-2 w-[calc(100vw+5rem)]">
                 <div class="rotate-2">    
                     <h2>le mouvement</h2>
@@ -117,12 +123,14 @@
                 </div>
             </section>
 
+            <!-- Bandeau - Nous rejoindre -->
             <section class="bg-rouge -rotate-5 flex justify-center py-12 -mt-7  w-[calc(100vw+5rem)] gap-10">
                 <img class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" x-intersect:enter="isVisible = true" x-intersect:leave="isVisible = false"/>
                 <h2 class="text-white">NOUS REJOINDRE</h2>
                 <img id="cibleScroll" class="-mt-1" src="img/icon-downarrow.svg" alt="Flèches vers le bas" />
             </section>
 
+            <!-- Troisième partie - Map & annuaire -->
             <section class="container mx-auto max-w-4xl gap-6 mt-18">
 
                 <iframe width="100%" height="550px" frameborder="0" allowfullscreen allow="geolocation" src="https://umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=false&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true"></iframe><p><a href="//umap.openstreetmap.fr/fr/map/indignons-nous_1261654?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&editMode=disabled&moreControl=true&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=none&captionBar=false&captionMenus=true">Voir en plein écran</a></p>
@@ -380,6 +388,7 @@
 
             </section>
 
+            <!-- Quatrième partie - GPG -->
             <section class="rotate-2 w-4xl bg-jaune mt-22 pb-12">
                 <div class="-rotate-2 p-12">
                     <p>
@@ -405,11 +414,12 @@
 
             </section>
 
-            <section class="bg-rouge -mt-6 w-full z-0 text-center py-12">
-                <h2>Rendez-vous le 10 septembre 2025</h2>
-            </section>
-
         </main>
+
+        <!-- Footer -->
+        <footer class="bg-rouge -mt-6 w-full z-25 text-center py-12 relative">
+            <h2>Rendez-vous le 10 septembre 2025</h2>
+        </footer>
         
     </body>
 
