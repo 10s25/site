@@ -359,6 +359,61 @@ img.logo_une {
     font-size: clamp(2rem, 5vw + 2rem, 3rem);
 }
 
+/* ===== Communication section ===== */
+
+.communication {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-right: 2rem;
+    gap: 2rem;
+}
+
+.communication .com-title {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.communication .com-link {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.social-networks li {
+    display: flex;
+    gap: 16px;
+    padding: 8px;
+}
+
+.social-networks .sn-link {
+    display: block;
+}
+
+.communication .foreign {
+    margin-top: 2rem;
+}
+
+.telegrams li {
+    margin-bottom: 12px;
+}
+
+.telegrams .tg-region {
+    margin: 0;
+}
+
+.telegrams .tg-infos {
+    display: flex;
+    align-items: center;
+}
+
+.telegrams .tg-title {
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
 /* ===== Map ===== */
 .map {
     width: 100%;
