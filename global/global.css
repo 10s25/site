@@ -392,7 +392,8 @@ img.logo_une {
     display: block;
 }
 
-.communication .foreign {
+.communication .foreign,
+.communication .other-groups {
     margin-top: 2rem;
 }
 
