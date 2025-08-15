@@ -1,0 +1,166 @@
+name: Deploy with Enhanced Notifications
+
+on:
+  workflow_dispatch:
+    inputs:
+      deployment_type:
+        description: 'Type of deployment'
+        required: true
+        default: 'update'
+        type: choice
+        options:
+          - 'init'
+          - 'update'
+      notify_webhook:
+        description: 'Webhook URL for notifications (optional)'
+        required: false
+        type: string
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - { name: "indignonsnous.fr", prefix: "_INDIGNONSNOUS_FR" }
+          - { name: "10s25.fr", prefix: "_10S25_FR" }
+          - { name: "10s25.ovh", prefix: "_10S25_OVH" }
+          - { name: "bloquonstout.ovh", prefix: "_BLOQUONSTOUT_OVH" }
+          - { name: "indignonsnous.ovh", prefix: "_INDIGNONSNOUS_OVH" }
+          - { name: "lesoulevementdupeuple.ovh", prefix: "_LESOULEVEMENTDUPEUPLE_OVH" }
+          - { name: "marchepourladignite.ovh", prefix: "_MARCHEPOURLADIGNITE_OVH" }
+          - { name: "onestla.ovh", prefix: "_ONESTLA_OVH" }
+          - { name: "revoltes.ovh", prefix: "_REVOLTES_OVH" }
+    
+    outputs:
+      deploy_status_${{ strategy.job-index }}: ${{ steps.deploy.outcome }}
+      site_name_${{ strategy.job-index }}: ${{ matrix.site.name }}
+    
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Deploy to ${{ matrix.site.name }}
+      id: deploy
+      uses: Dylan700/sftp-upload-action@latest
+      with:
+        server: ${{ secrets[format('{0}_SERVER', matrix.site.prefix)] }}
+        username: ${{ secrets[format('{0}_USER', matrix.site.prefix)] }}
+        password: ${{ secrets[format('{0}_PW', matrix.site.prefix)] }}
+        port: 22
+        delete: ${{ inputs.deployment_type == 'init' && 'true' || 'false' }}
+        uploads: |
+          ./ => ${{ secrets[format('{0}_HOME', matrix.site.prefix)] }}
+        ignore-from: ${{ inputs.deployment_type == 'init' && '.github/ignore.txt' || '.github/ignore_local.txt' }}
+
+    - name: Report individual deployment status
+      if: always()
+      run: |
+        timestamp=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
+        if [ "${{ steps.deploy.outcome }}" == "success" ]; then
+          echo "✅ [$timestamp] Deployment to ${{ matrix.site.name }} succeeded"
+          echo "DEPLOY_STATUS=success" >> $GITHUB_ENV
+        else
+          echo "❌ [$timestamp] Deployment to ${{ matrix.site.name }} failed"
+          echo "DEPLOY_STATUS=failed" >> $GITHUB_ENV
+        fi
+        echo "SITE_NAME=${{ matrix.site.name }}" >> $GITHUB_ENV
+        echo "TIMESTAMP=$timestamp" >> $GITHUB_ENV
+
+    - name: Send webhook notification for individual deployment
+      if: always() && inputs.notify_webhook != ''
+      run: |
+        status_emoji="${{ env.DEPLOY_STATUS == 'success' && '✅' || '❌' }}"
+        curl -X POST "${{ inputs.notify_webhook }}" \
+          -H "Content-Type: application/json" \
+          -d "{
+            \"text\": \"$status_emoji Deployment to ${{ env.SITE_NAME }}\",
+            \"attachments\": [{
+              \"color\": \"${{ env.DEPLOY_STATUS == 'success' && 'good' || 'danger' }}\",
+              \"fields\": [
+                {\"title\": \"Site\", \"value\": \"${{ env.SITE_NAME }}\", \"short\": true},
+                {\"title\": \"Status\", \"value\": \"${{ env.DEPLOY_STATUS }}\", \"short\": true},
+                {\"title\": \"Type\", \"value\": \"${{ inputs.deployment_type }}\", \"short\": true},
+                {\"title\": \"Time\", \"value\": \"${{ env.TIMESTAMP }}\", \"short\": true}
+              ]
+            }]
+          }" || echo "Webhook notification failed"
+
+  notify:
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: always()
+    steps:
+    - name: Calculate deployment summary
+      id: summary
+      run: |
+        total_sites=9
+        
+        # Count successes and failures
+        success_count=0
+        failed_sites=""
+        
+        # This is a simplified approach - in real implementation you'd parse the matrix results
+        if [ "${{ needs.deploy.result }}" == "success" ]; then
+          success_count=$total_sites
+          echo "status_emoji=✅" >> $GITHUB_OUTPUT
+          echo "overall_status=All deployments successful" >> $GITHUB_OUTPUT
+          echo "color=good" >> $GITHUB_OUTPUT
+        else
+          echo "status_emoji=⚠️" >> $GITHUB_OUTPUT
+          echo "overall_status=Some deployments failed" >> $GITHUB_OUTPUT
+          echo "color=warning" >> $GITHUB_OUTPUT
+        fi
+        
+        echo "total_sites=$total_sites" >> $GITHUB_OUTPUT
+        echo "success_count=$success_count" >> $GITHUB_OUTPUT
+        echo "timestamp=$(date -u +"%Y-%m-%d %H:%M:%S UTC")" >> $GITHUB_OUTPUT
+
+    - name: Display deployment summary
+      run: |
+        echo "=========================================="
+        echo "         DEPLOYMENT SUMMARY"
+        echo "=========================================="
+        echo "🗓️  Timestamp: ${{ steps.summary.outputs.timestamp }}"
+        echo "📋  Type: ${{ inputs.deployment_type }}"
+        echo "🎯  Total sites: ${{ steps.summary.outputs.total_sites }}"
+        echo "📊  Status: ${{ steps.summary.outputs.overall_status }}"
+        echo "🔗  Workflow: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        echo "=========================================="
+        
+        if [ "${{ needs.deploy.result }}" != "success" ]; then
+          echo "⚠️  WARNING: Check individual job logs for details"
+          echo "📝  Failed deployments require manual intervention"
+        fi
+
+    - name: Send final webhook notification
+      if: always() && inputs.notify_webhook != ''
+      run: |
+        curl -X POST "${{ inputs.notify_webhook }}" \
+          -H "Content-Type: application/json" \
+          -d "{
+            \"text\": \"${{ steps.summary.outputs.status_emoji }} Deployment Summary - ${{ inputs.deployment_type }}\",
+            \"attachments\": [{
+              \"color\": \"${{ steps.summary.outputs.color }}\",
+              \"fields\": [
+                {\"title\": \"Total Sites\", \"value\": \"${{ steps.summary.outputs.total_sites }}\", \"short\": true},
+                {\"title\": \"Status\", \"value\": \"${{ steps.summary.outputs.overall_status }}\", \"short\": true},
+                {\"title\": \"Type\", \"value\": \"${{ inputs.deployment_type }}\", \"short\": true},
+                {\"title\": \"Time\", \"value\": \"${{ steps.summary.outputs.timestamp }}\", \"short\": true},
+                {\"title\": \"Workflow\", \"value\": \"[View Details](${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }})\", \"short\": false}
+              ]
+            }]
+          }" || echo "Final webhook notification failed"
+
+    - name: Create deployment badge
+      if: always()
+      run: |
+        # Create a simple badge status file that could be served statically
+        mkdir -p .github/badges
+        if [ "${{ needs.deploy.result }}" == "success" ]; then
+          echo "![Deployment](https://img.shields.io/badge/deployment-passing-brightgreen)" > .github/badges/deployment.md
+        else
+          echo "![Deployment](https://img.shields.io/badge/deployment-failing-red)" > .github/badges/deployment.md
+        fi
+        echo "Last updated: ${{ steps.summary.outputs.timestamp }}" >> .github/badges/deployment.md

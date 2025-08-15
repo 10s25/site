@@ -4,122 +4,64 @@ on:
   workflow_dispatch:
 
 jobs:
-  greet:
+  deploy:
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site:
+          - { name: "indignonsnous.fr", prefix: "_INDIGNONSNOUS_FR" }
+          - { name: "10s25.fr", prefix: "_10S25_FR" }
+          - { name: "10s25.ovh", prefix: "_10S25_OVH" }
+          - { name: "bloquonstout.ovh", prefix: "_BLOQUONSTOUT_OVH" }
+          - { name: "indignonsnous.ovh", prefix: "_INDIGNONSNOUS_OVH" }
+          - { name: "lesoulevementdupeuple.ovh", prefix: "_LESOULEVEMENTDUPEUPLE_OVH" }
+          - { name: "marchepourladignite.ovh", prefix: "_MARCHEPOURLADIGNITE_OVH" }
+          - { name: "onestla.ovh", prefix: "_ONESTLA_OVH" }
+          - { name: "revoltes.ovh", prefix: "_REVOLTES_OVH" }
+    
     steps:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: SFTP upload indignonsnous.fr
+    - name: Deploy to ${{ matrix.site.name }}
+      id: deploy
       uses: Dylan700/sftp-upload-action@latest
       with:
-        server: ${{secrets._INDIGNONSNOUS_FR_SERVER}}
-        username: ${{secrets._INDIGNONSNOUS_FR_USER}}
-        password: ${{secrets._INDIGNONSNOUS_FR_PW}}
+        server: ${{ secrets[format('{0}_SERVER', matrix.site.prefix)] }}
+        username: ${{ secrets[format('{0}_USER', matrix.site.prefix)] }}
+        password: ${{ secrets[format('{0}_PW', matrix.site.prefix)] }}
         port: 22
         delete: 'true'
         uploads: |
-          ./ => ${{secrets._INDIGNONSNOUS_FR_HOME}}
+          ./ => ${{ secrets[format('{0}_HOME', matrix.site.prefix)] }}
         ignore-from: .github/ignore.txt
 
-    - name: SFTP upload 10s25.fr
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._10S25_FR_SERVER}}
-        username: ${{secrets._10S25_FR_USER}}
-        password: ${{secrets._10S25_FR_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._10S25_FR_HOME}}
-        ignore-from: .github/ignore.txt
+    - name: Report deployment status
+      if: always()
+      run: |
+        if [ "${{ steps.deploy.outcome }}" == "success" ]; then
+          echo "✅ Deployment to ${{ matrix.site.name }} succeeded"
+        else
+          echo "❌ Deployment to ${{ matrix.site.name }} failed"
+          exit 1
+        fi
 
-
-    - name: SFTP upload 10s25.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._10S25_OVH_SERVER}}
-        username: ${{secrets._10S25_OVH_USER}}
-        password: ${{secrets._10S25_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._10S25_OVH_HOME}}
-        ignore-from: .github/ignore.txt
-
-    - name: SFTP upload bloquonstout.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._BLOQUONSTOUT_OVH_SERVER}}
-        username: ${{secrets._BLOQUONSTOUT_OVH_USER}}
-        password: ${{secrets._BLOQUONSTOUT_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._BLOQUONSTOUT_OVH_HOME}}
-        ignore-from: .github/ignore.txt
-
-    - name: SFTP upload indignonsnous.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._INDIGNONSNOUS_OVH_SERVER}}
-        username: ${{secrets._INDIGNONSNOUS_OVH_USER}}
-        password: ${{secrets._INDIGNONSNOUS_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._INDIGNONSNOUS_OVH_HOME}}
-        ignore-from: .github/ignore.txt
-
-    - name: SFTP upload lesoulevementdupeuple.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_SERVER}}
-        username: ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_USER}}
-        password: ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._LESOULEVEMENTDUPEUPLE_OVH_HOME}}
-        ignore-from: .github/ignore.txt 
-
-    - name: SFTP upload marchepourladignite.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._MARCHEPOURLADIGNITE_OVH_SERVER}}
-        username: ${{secrets._MARCHEPOURLADIGNITE_OVH_USER}}
-        password: ${{secrets._MARCHEPOURLADIGNITE_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._MARCHEPOURLADIGNITE_OVH_HOME}}
-        ignore-from: .github/ignore.txt
-
-
-    - name: SFTP upload onestla.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._ONESTLA_OVH_SERVER}}
-        username: ${{secrets._ONESTLA_OVH_USER}}
-        password: ${{secrets._ONESTLA_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._ONESTLA_OVH_HOME}}
-        ignore-from: .github/ignore.txt
-
-
-    - name: SFTP upload revoltes.ovh
-      uses: Dylan700/sftp-upload-action@latest
-      with:
-        server: ${{secrets._REVOLTES_OVH_SERVER}}
-        username: ${{secrets._REVOLTES_OVH_USER}}
-        password: ${{secrets._REVOLTES_OVH_PW}}
-        port: 22
-        delete: 'true'
-        uploads: |
-          ./ => ${{secrets._REVOLTES_OVH_HOME}}
-        ignore-from: .github/ignore.txt
+  notify:
+    runs-on: ubuntu-latest
+    needs: deploy
+    if: always()
+    steps:
+    - name: Send deployment summary
+      run: |
+        echo "Deployment Summary:"
+        echo "- Total sites: 9"
+        echo "- Status: ${{ needs.deploy.result }}"
+        if [ "${{ needs.deploy.result }}" != "success" ]; then
+          echo "⚠️ Some deployments may have failed. Check individual job logs."
+        else
+          echo "✅ All deployments completed successfully"
+        fi
 
 
 
