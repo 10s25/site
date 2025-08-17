@@ -34,8 +34,8 @@ jobs:
           - { name: "revoltes.ovh", prefix: "_REVOLTES_OVH" }
     
     outputs:
-      deploy_status_${{ strategy.job-index }}: ${{ steps.deploy.outcome }}
-      site_name_${{ strategy.job-index }}: ${{ matrix.site.name }}
+      deploy_status: ${{ steps.deploy.outcome }}
+      site_name: ${{ matrix.site.name }}
     
     steps:
     - name: Checkout
