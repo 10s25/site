@@ -1,0 +1,27 @@
+CORRECTIONS DE SECURITE APPLIQUEES
+=====================================
+
+VULNERABILITES XSS CORRIGEES :
+- Toutes les sorties HTML echappees avec htmlspecialchars()
+- Variables $cat_name, $nom, $rs_icon, $rsFromIcon[$rs_icon], $link['url'], $link['nom_rs'] securisees
+- Protection contre injection de scripts malveillants
+
+INJECTION DE FICHIERS CORRIGEE :
+- Fonction validateCSVPath() ajoutee
+- Validation stricte des chemins avec realpath()
+- Verification que fichiers sont dans dossier data/ uniquement
+- Controle extensions fichiers (seuls .csv autorises)
+
+TELECHARGEMENT FICHIERS SECURISE :
+- Validation types de fichiers
+- Protection contre acces fichiers systeme
+
+AUTRES CORRECTIONS :
+- Constante PHP __file__ corrigee en __FILE__
+- Gestion erreurs renforcee avec verification fopen/fwrite
+- Performance optimisee (remplacement += par assignation directe)
+- Suppression exit() remplace par exceptions
+
+FICHIERS MODIFIES :
+- /src/update_groups.php
+- /src/templates/groupes.php
