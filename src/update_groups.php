@@ -5,7 +5,7 @@ error_reporting(E_ALL);
  */
 
 // Chemin absolu du présent script
-$path = dirname(__file__) .'/';
+$path = dirname(__FILE__) .'/';
 
 // Chemin absolu du site
 $rootpath = dirname($path) .'/';
@@ -62,9 +62,19 @@ $cat_groups = [
  * Lit fichier CSV dans un tableau
  */
 function readCSV($csvFilename) {
+	// Validation du chemin de fichier
+	if (!file_exists($csvFilename) || !is_readable($csvFilename)) {
+		throw new Exception("Fichier CSV non accessible: " . basename($csvFilename));
+	}
+	
 	$file = fopen($csvFilename, 'r');
+	if ($file === false) {
+		throw new Exception("Impossible d'ouvrir le fichier CSV: " . basename($csvFilename));
+	}
+	
+	$array = [];
 	while (($line = fgetcsv($file)) !== FALSE) {
-		$array[] =$line;
+		$array[] = $line;
 	}
 	fclose($file);
 	return $array;
@@ -107,9 +117,8 @@ function load_CSV($cat_groups) {
 
 		// vérif structure des fichiers CSV
 		if (($fields != $cat_array[0]) ){
-			throw new Exception("\nFichier CSV non conforme: " . $cat_description['filepath'] . '.' .
+			throw new Exception("\nFichier CSV non conforme: " . basename($cat_description['filepath']) . '.' .
 				"\nFormat attendu: [" . implode(', ', $cat_description['fields']) . "]\n");
-			exit();
 		}
 		// On enlève les noms des champs (1ère ligne du CSV)
 		$cat_array = array_slice($cat_array, 1);
@@ -183,7 +192,18 @@ ob_start();
 include($path . 'templates/groupes.php');
 $html = ob_get_clean();
 
-$destfile = fopen($rootpath . 'global/ssi/groupes.shtml', 'w');
+// Validation et nettoyage du contenu HTML
+$html = htmlspecialchars($html, ENT_QUOTES, 'UTF-8', false);
+
+$destpath = $rootpath . 'global/ssi/groupes.shtml';
+if (!is_dir(dirname($destpath))) {
+	mkdir(dirname($destpath), 0755, true);
+}
+
+$destfile = fopen($destpath, 'w');
+if ($destfile === false) {
+	throw new Exception("Impossible d'écrire le fichier de destination");
+}
 fwrite($destfile, $html);
 fclose($destfile);
 

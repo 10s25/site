@@ -2,7 +2,7 @@ var tag = "countdown";
 var countDownDate = new Date("Sep 10, 2025 00:00:00").getTime();
 
 // Update the count down every 1 second
-var x = setInterval(function() {
+var countdownInterval = setInterval(function() {
 
   // Get today's date and time
   var now = new Date().getTime();
@@ -16,13 +16,19 @@ var x = setInterval(function() {
   var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-  // Display the result in the element with id="demo"
-  document.getElementById(tag).innerHTML = "Dans " + days + " jours, " + hours + " heures, "
-  + minutes + " minutes, et " + seconds + " secondes";
+  // Display the result in the element with id="countdown"
+  var element = document.getElementById(tag);
+  if (element) {
+    element.innerHTML = "Dans " + days + " jours, " + hours + " heures, "
+    + minutes + " minutes, et " + seconds + " secondes";
+  }
 
   // If the count down is finished, write some text
   if (distance < 0) {
-    clearInterval(x);
-    document.getElementById(tag).innerHTML = "Aujourd'hui, on résiste !";
+    clearInterval(countdownInterval);
+    var element = document.getElementById(tag);
+    if (element) {
+      element.innerHTML = "Aujourd'hui, on résiste !";
+    }
   }
 }, 1000);

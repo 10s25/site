@@ -1,0 +1,19 @@
+MODIFICATIONS RESPONSIVE POST-IT JAUNES
+=======================================
+
+PROBLÈME : Post-it pas assez responsive sur petits écrans
+
+SOLUTION : Amélioration CSS sans media queries
+
+CHANGEMENTS DANS global/global.css :
+
+1. Post-it content :
+   - padding: clamp(10px, 3vw, 50px)
+   - width: calc(100% - clamp(10px, 4vw, 40px))
+   - transform avec clamp pour rotations adaptatives
+
+2. Footer post-it :
+   - marges réduites avec clamp()
+   - même système de rotations adaptatives
+
+RÉSULTAT : Post-it s'adaptent automatiquement à toutes tailles d'écran

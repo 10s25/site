@@ -30,7 +30,7 @@ jobs:
 
     - name: Deploy to ${{ matrix.site.name }}
       id: deploy
-      uses: Dylan700/sftp-upload-action@latest
+      uses: Dylan700/sftp-upload-action@v1.1.4
       with:
         server: ${{ secrets[format('{0}_SERVER', matrix.site.prefix)] }}
         username: ${{ secrets[format('{0}_USER', matrix.site.prefix)] }}
