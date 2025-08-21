@@ -7,8 +7,9 @@ body {
 	font-family: "Gotham", sans-serif, "Roboto", sans-serif;
 	background: #121214;
 	line-height: 1.6rem;
-	font-size: clamp(0.9rem, 1.5vw, 1rem);
+	font-size: 0.9rem;
 	color: #ffffff;
+	overflow-x: hidden;
 }
 
 /* ==== Couleurs ==== */
@@ -30,14 +31,14 @@ h1, h2, h3, h4, h5 {
 	letter-spacing: -0.5px;
 	line-height: 1.3;
 }
-h1 { font-size: clamp(2.5rem, 5vw, 4rem); font-weight: 800; }
-h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); }
-h3 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
-h4 { font-size: clamp(1.2rem, 2.5vw, 1.8rem); }
-h5 { font-size: clamp(1rem, 2vw, 1.3rem); }
+h1 { font-size: 2.5rem; font-weight: 800; }
+h2 { font-size: 1.8rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.2rem; }
+h5 { font-size: 1rem; }
 
 /* ==== Code ==== */
-code { font-size: clamp(0.7rem, 1.5vw, 0.8em); padding: 10px; }
+code { font-size: 0.8em; padding: 10px; }
 
 /* ==== Banniere ==== */
 header#banniere { width: 100%; display: flex; align-items: center; justify-content: center; margin-bottom: 2em;}
@@ -60,7 +61,7 @@ a.disabled { pointer-events: none; }
 #menu_top ul li.dropdown:hover .submenu { display: flex; }
 #menu_top ul.submenu { display: none; position: absolute; top: 100%; left: 0; list-style: none; padding: 0; margin: 0; background: #f2e25b; min-width: 200px; flex-direction: column; z-index: 999; }
 #menu_top ul.submenu li { margin: 0; padding: 0; background: #f2e25b; }
-#menu_top ul.submenu li a { padding: 5px 10px; font-size: clamp(1rem, 1.7vw, 1rem); white-space: nowrap;  color: #1a1a1a; }
+#menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap;  color: #1a1a1a; }
 #menu_top ul.submenu li.selected a { color: #f2e25b; }
 #menu_top ul.submenu li:hover { background: #1a1a1a; }
 #menu_top ul.submenu li:hover > a { color: #f2e25b; }
@@ -76,15 +77,15 @@ main#center {
 }
 
 /* ==== Sidebar ==== */
-#sidebar { background: #222; padding: clamp(0.5rem, 1vw, 1rem); width: 30%; margin-top: 30px; min-width: 360px; }
+#sidebar { background: #222; padding: 1rem; width: 30%; margin-top: 30px; min-width: 300px; }
 #sidebar a { color: #fff; }
 #sidebar a:hover { color: #f2e25b; }
 #sidebar li { list-style: none; }
 
 /* ==== Bouton rejoindre ==== */
-#rejoindre { padding: clamp(3px, 0.8vw, 5px) clamp(8px, 1.5vw, 10px); width: 100%; align-items: center;
-	justify-content: center;font-size: clamp(1.2rem, 2.5vw, 1.5em);font-weight: 800;
-	font-family: 'Inter', Arial, sans-serif;transform: rotate(-1deg) scale(1.08) translateY(-20px);display: flex;}
+#rejoindre { padding: 5px 10px; width: 100%; align-items: center;
+	justify-content: center; font-size: 1.2rem; font-weight: 800;
+	font-family: 'Inter', Arial, sans-serif; transform: rotate(-1deg) scale(1.08) translateY(-20px); display: flex; }
 #rejoindre { display: flex; transform: rotate(-1deg) scale(1.08) translateY(-20px); }
 #rejoindre::before {
 	content: "\002B07";
@@ -106,9 +107,10 @@ main#center {
 }
 #content .postit {
 	max-width: 100%;
-	padding: clamp(20px, 5vw, 50px);
+	padding: 20px;
 	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	margin: 0 20px;
+	margin: 0 20px 20px 0;
+	box-sizing: border-box;
 }
 #content .postit div.postit-content {
 	transform: rotate(1deg) translateX(20px) translateY(20px);
@@ -125,11 +127,11 @@ main#center {
 	display: flex;
 }
 #content p.big, #content p.big p, #content p.big span {
-	font-size: clamp(1.5rem, 2.5vw, 2rem);
-	margin: clamp(30px, 5vw, 60px) 0;
+	font-size: 1.5rem;
+	margin: 30px 0;
 }
 #content p, #content span, #content li {
-	font-size: clamp(0.9rem, 1.5vw, 1.05rem);
+	font-size: 0.9rem;
 	line-height: 1.6;
 	margin-bottom: 1em;
 }
@@ -137,12 +139,12 @@ main#center {
 #content .danger-banner { display: flex; align-items: center; justify-content: center;margin-bottom: 10px;
 	gap: 1rem; background: #222; color: #f2e25b; padding: 2rem 2rem;font-weight: bold; text-transform: uppercase; box-shadow: 0 2px 6px rgba(0,0,0,0.25);}
 #content .danger-banner span.emoji {
-	font-size: clamp(4rem, 8vw, 9rem); line-height: 1; flex-shrink: 0;
+	font-size: 4rem; line-height: 1; flex-shrink: 0;
 	display: flex; align-items: center; margin: 0;
 }
 #content .danger-banner span.text {
-	text-align: left;line-height: 1.3;margin: 0;
-	font-size: clamp(1rem, 3vw, 2em);
+	text-align: left; line-height: 1.3; margin: 0;
+	font-size: 1.2rem;
 }
 /* ==== Bas de page ==== */
 #footer {
@@ -152,9 +154,10 @@ main#center {
 #footer section.postit {
 	max-width: 95%;
 	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	padding: clamp(20px, 5vw, 50px);
-	margin-top: 40px;
+	padding: 20px;
+	margin: 40px 20px 20px 0;
 	border: thin solid #e9d25b;
+	box-sizing: border-box;
 }
 #footer section.postit div {
 	transform: rotate(1deg) translateX(20px) translateY(20px);
@@ -163,6 +166,19 @@ main#center {
 @media only screen and (max-width: 1024px) {
 	main#center { flex-direction: column; align-items: center; text-align: left; }
 	#sidebar { order: 2; width: 100%; min-width: 0;}
-	#content { order: 1; margin-top: 30px;}
-	#content .postit { padding: 20px; }
+	#content { order: 1; margin: 10px; }
+	#content .postit { padding: 15px; margin: 10px 0; transform: none; }
+	#content .postit div.postit-content { transform: none; }
+	#footer { margin: 20px 10px; }
+	#footer section.postit { transform: none; margin: 20px 0; }
+	#footer section.postit div { transform: none; }
+	body { font-size: 1rem; }
+	h1 { font-size: 2rem; }
+	h2 { font-size: 1.5rem; }
+	h3 { font-size: 1.3rem; }
+	h4 { font-size: 1.1rem; }
+	#content p.big, #content p.big p, #content p.big span { font-size: 1.2rem; margin: 20px 0; }
+	#content .danger-banner span.emoji { font-size: 3rem; }
+	#content .danger-banner span.text { font-size: 1rem; }
+	#sidebar { min-width: 0; padding: 15px; }
 }
