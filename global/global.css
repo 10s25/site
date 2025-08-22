@@ -7,6 +7,7 @@ body {
 	font-family: "Gotham", sans-serif, "Roboto", sans-serif;
 	background: #121214;
 	line-height: 1.6rem;
+	font-size: 0.9rem;
 	font-size: clamp(0.9rem, 1.5vw, 1rem);
 	color: #ffffff;
 	overflow-x: hidden;
@@ -229,6 +230,8 @@ main#center {
 	#footer { margin: 20px 10px; }
 	#footer section.postit { transform: none; margin: 20px 0; }
 	#footer section.postit div { transform: none; }
+	body { font-size: 1rem; font-size: clamp(0.9rem, 1.5vw, 1rem);}
+	h1 { font-size: 2rem; }
 	h2 { font-size: 1.5rem; }
 	h3 { font-size: 1.3rem; }
 	h4 { font-size: 1.1rem; }
