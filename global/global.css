@@ -7,7 +7,6 @@ body {
 	font-family: "Gotham", sans-serif, "Roboto", sans-serif;
 	background: #121214;
 	line-height: 1.6rem;
-	font-size: 0.9rem;
 	font-size: clamp(0.9rem, 1.5vw, 1rem);
 	color: #ffffff;
 	overflow-x: hidden;
@@ -16,12 +15,30 @@ body {
 /* ==== Couleurs ==== */
 .font-yellow { color: #f9e25b; }
 .font-green { color: #63ff43; }
-.font-red { color: #af0022; }
+.font-red { color: #f52639; }
 .font-black { color: #000; }
 .background-yellow { background-color: #f9e25b; }
 .background-red { background-color: #f52639; }
 .background-grey { background-color: #222; }
 .background-black { background-color: #000; }
+
+#countdown-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+	box-sizing: content-box;
+}
+
+#countdown-wrapper div.countdown {
+	transform: translateY(15px);
+}
+
+
+#ferie {
+	padding: 5px 15px;
+	transform: rotate(-5deg);
+}
 
 .postit a:link, .postit a:visited { color:#0b2369 }
 .postit a:hover { color:#481100 }
@@ -59,7 +76,7 @@ img#logo_left { width: 300px; max-width: 100%; height: auto; margin-right: 20px;
 #menu_top ul li a { color: #1a1a1a; text-decoration: none; font-weight: bold; transition: color 0.3s ease; display: block; }
 #menu_top ul li:hover { background: #1a1a1a; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); }
 #menu_top ul li:hover > a { color: #f2e25b; }
-#menu_top li.selected, #menu_top ul li .submenu li.selected { background: #1a1a1a; color: #f2e25b; border: thin solid #f2e25b; pointer-events: none; }
+#menu_top li.selected, #menu_top ul li .submenu li.selected { background: #1a1a1a; color: #f2e25b; border: thin solid #f2e25b; }
 #menu_top li.selected a {color: #f2e25b;}
 a.disabled { pointer-events: none; }
 
@@ -70,7 +87,7 @@ a.disabled { pointer-events: none; }
 #menu_top ul.submenu li { margin: 0; padding: 0; background: #f2e25b; }
 #menu_top ul.submenu li a { padding: 5px 10px; font-size: 1rem; white-space: nowrap;  color: #1a1a1a; }
 #menu_top ul.submenu li a { font-size: clamp(1rem, 1.7vw, 1rem); }
-#menu_top ul.submenu li.selected a { color: #f2e25b; }
+#menu_top ul.submenu li.selected a { color: #f2e25b }
 #menu_top ul.submenu li:hover { background: #1a1a1a; }
 #menu_top ul.submenu li:hover > a { color: #f2e25b; }
 
@@ -212,8 +229,6 @@ main#center {
 	#footer { margin: 20px 10px; }
 	#footer section.postit { transform: none; margin: 20px 0; }
 	#footer section.postit div { transform: none; }
-	body { font-size: 1rem; }
-	h1 { font-size: 2rem; }
 	h2 { font-size: 1.5rem; }
 	h3 { font-size: 1.3rem; }
 	h4 { font-size: 1.1rem; }

@@ -1,9 +1,32 @@
-<!-- Éléments de menu principal personnalisé pour ce site  --><!--#config errmsg="" -->
-<li<!--#if expr="$REQUEST_URI = '/local/visuels.html'" --> class="selected"<!--#endif -->><a href="/local/visuels.html">Visuels</a></li>
-<li class="dropdown<!--#if expr="$REQUEST_URI = /doleances/" --> selected<!--#endif -->">
-	<a href="#" class="disabled">Doléances ▾</a>
+<!-- Éléments de menu principal personnalisé pour ce site  -->
+<!--#config errmsg="" -->
+
+<li<!--#if expr='v("REQUEST_URI") == "/local/visuels.html"' --> class="selected"<!--#endif -->>
+	<a href="/local/visuels.html">Visuels</a>
+</li>
+
+<!--#if expr='v("REQUEST_URI") =~ m#^/local/(formulaire-doleances|doleances)\.html$#' -->
+<li class="dropdown selected">
+	<a href="#" class="disabed">Doléances ▾</a>
 	<ul class="submenu">
-		<li<!--#if expr="$REQUEST_URI = '/local/formulaire-doleances.html'" --> class="selected"<!--#endif -->><a href="/local/formulaire-doleances.html">Formulaire de Doléances</a></li>
-		<li<!--#if expr="$REQUEST_URI = '/local/doleances.html'" --> class="selected"<!--#endif -->><a href="/local/doleances.html">Cahier de Doléances</a></li>
+		<li<!--#if expr='v("REQUEST_URI") == "/local/formulaire-doleances.html"' --> class="selected"<!--#endif -->>
+		<a href="/local/formulaire-doleances.html">Formulaire de Doléances</a>
+		</li>
+		<li<!--#if expr='v("REQUEST_URI") == "/local/doleances.html"' --> class="selected"<!--#endif -->>
+		<a href="/local/doleances.html">Cahier de Doléances</a>
+		</li>
 	</ul>
 </li>
+<!--#else -->
+<li class="dropdown">
+	<a href="#" class="disabed">Doléances ▾</a>
+	<ul class="submenu">
+		<li<!--#if expr='v("REQUEST_URI") == "/local/formulaire-doleances.html"' --> class="selected"<!--#endif -->>
+		<a href="/local/formulaire-doleances.html">Formulaire de Doléances</a>
+		</li>
+		<li<!--#if expr='v("REQUEST_URI") == "/local/doleances.html"' --> class="selected"<!--#endif -->>
+		<a href="/local/doleances.html">Cahier de Doléances</a>
+		</li>
+	</ul>
+</li>
+<!--#endif -->
