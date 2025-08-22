@@ -1,3 +1,16 @@
+// Nom du RS selon rs_icon
+<?php
+$rsFromIcon = [
+'bluesky'   => 'Bluesky',
+'facebookp' => 'Facebook (pages)',
+'facebookg' => 'Facebook (groupes)',
+'instagram' => 'Instagram',
+'piaille'   => 'Piaille',
+'signal'    => 'Signal',
+'telegram'  => 'Telegram',
+'tiktok'    => 'TikTok',
+'twitter'   => 'X (Twitter)',
+]; ?>
 <ul class="sidebar-section-1">
 <?php foreach ($groups as $cat_name => $cat_array) { ?>
 	<li>
