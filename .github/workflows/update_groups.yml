@@ -7,6 +7,8 @@ on:
       - 'src/data/groupes_dep.csv'
       - 'src/data/groupes_reg.csv'
       - 'src/data/groupes_monde.csv'
+      - 'src/data/groupes_nat.csv'
+      - 'src/data/groupes_autres.csv'
   workflow_dispatch:
 
 permissions:
