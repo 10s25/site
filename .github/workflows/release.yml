@@ -18,8 +18,12 @@ jobs:
         uses: actions/checkout@v4
         with:
           sparse-checkout: |
+            favicon.ico
+            index.html
+            README.md
             global
             local
+          sparse-checkout-cone-mode: false
 
       - name: Create Release
         uses: softprops/action-gh-release@v1
