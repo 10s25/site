@@ -9,6 +9,8 @@ on:
       - 'src/data/groupes_monde.csv'
       - 'src/data/groupes_nat.csv'
       - 'src/data/groupes_autres.csv'
+  repository_dispatch:
+    types: [framacalcs-updated]
 
 
 permissions:
