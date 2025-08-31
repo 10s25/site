@@ -1,0 +1,47 @@
+name: Update Groups
+
+on:
+  push:
+    paths:
+      - 'src/data/groupes_loc.csv'
+      - 'src/data/groupes_dep.csv'
+      - 'src/data/groupes_reg.csv'
+      - 'src/data/groupes_monde.csv'
+      - 'src/data/groupes_nat.csv'
+      - 'src/data/groupes_autres.csv'
+  repository_dispatch:
+    types: [framacalcs-updated]
+
+
+permissions:
+  contents: write
+
+jobs:
+  update_groups:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.1'
+          
+      - name: Run update script
+        run: |
+          cd src
+          php update_groups.php
+          
+      - name: Commit changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add global/ssi/groupes.shtml
+            git commit -m "Auto-update: Updated groups from CSV data [skip ci]"
+            git push
+          else
+            echo "No changes to commit"
+          fi

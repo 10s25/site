@@ -1,16 +1,33 @@
-code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
-14,Caen,telegram,+Yz3dBigEr5NmMTg0,https://t.me/+Yz3dBigEr5NmMTg0,49.1813403,-0.3635615
-38,Grenoble,telegram,+VGKAqIfgCWowMzg8,https://t.me/+VGKAqIfgCWowMzg8,45.166672,5.71667
-35,"Pays de Saint-Malo",telegram,indignonsnouspaysdesaintmalo,https://t.me/indignonsnouspaysdesaintmalo,48.649518,-2.0260409
-44,"Ancenis et alentours",telegram,+f5ay1J6hmUg5ZGY0,https://t.me/+f5ay1J6hmUg5ZGY0,47.3648141,-1.1816088
-44,"L'île de Nantes",telegram,+4Hml85LTV8c1ZjA0,https://t.me/+4Hml85LTV8c1ZjA0,47.2044623,-1.5601228
-44,"Malakoff – Saint Donatien",telegram,+nKqjGihlVlM5ZDBk,https://t.me/+nKqjGihlVlM5ZDBk,47.2286856,-1.543011
-44,"Nantes agglomération",telegram,+FVgpAoiS7-IzMTA0,https://t.me/+FVgpAoiS7-IzMTA0,47.2278821,-1.8054421
-44,"Nantes Nord",telegram,+pXKibPlTgwFkNzBk,https://t.me/+pXKibPlTgwFkNzBk,47.268375684898174,-1.5553177233255313
-44,Rezé,telegram,+7ifqGHbsJ6QwMDlk,https://t.me/+7ifqGHbsJ6QwMDlk,47.1905456,-1.5695287
-51,Reims,telegram,+5LH0u6BO-dU1ZTNk,https://t.me/+5LH0u6BO-dU1ZTNk,49.2457628,4.0230733
-57,"Saint-Avold et environs",telegram,+6Qbs3_5up-o0NTQ0,https://t.me/+6Qbs3_5up-o0NTQ0,49.1043397,6.7071754
-69,Lyon,telegram,+SuOiGcRJZoliMDk0,https://t.me/+SuOiGcRJZoliMDk0,45.7578137,4.8320114
-71,"Chalon-sur-Saône, Le Creusot et Montceau-les-Mines",telegram,+a3tRDc53UHk0ZTFi,https://t.me/+a3tRDc53UHk0ZTFi,46.718655,4.5958855
-76,Rouen,telegram,+cWtCwdI2cv1lYzVk,https://t.me/+cWtCwdI2cv1lYzVk,49.4404591,1.0939658
-76,"Le Havre",telegram,+nwEOj3XdQGk5MjQ0,https://t.me/+nwEOj3XdQGk5MjQ0,49.4938975,0.1079732
+code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude,,,,
+14,Caen,telegram,+Yz3dBigEr5NmMTg0,https://t.me/+Yz3dBigEr5NmMTg0,49.1813403,-0.3635615,,,,
+16,Angoulême,telegram,+U8ruFJrFrhs1NWQ8,https://t.me/+U8ruFJrFrhs1NWQ8,45.6484505,0.1561947,,,,
+16,Cognac,telegram,c/1698890845/12331,https://t.me/c/1698890845/12331,45.6931647,-0.3250175,,,,
+17,"La Rochelle",telegram,c/1698890845/6059,https://t.me/c/1698890845/6059,46.159732,-1.1515951,,,,
+17,Rochefort,telegram,c/1698890845/10572,https://t.me/c/1698890845/10572,45.9366592,-0.9616399,,,,
+17,Saintes,telegram,c/1698890845/6083,https://t.me/c/1698890845/6083,45.7460663,-0.6300671,,,,
+24,"Bassin de vie Thiviers/Chalus/Saint-Yriex -La-Perche",telegram,+5gHUQ7JNrwMyMjc8,https://t.me/+5gHUQ7JNrwMyMjc8,45.5426008,0.9772908,,,,
+38,Grenoble,telegram,+VGKAqIfgCWowMzg8,https://t.me/+VGKAqIfgCWowMzg8,45.166672,5.71667,,,,
+35,"Pays de Saint-Malo",telegram,indignonsnouspaysdesaintmalo,https://t.me/indignonsnouspaysdesaintmalo,48.649518,-2.0260409,,,,
+44,"Ancenis et alentours",telegram,+f5ay1J6hmUg5ZGY0,https://t.me/+f5ay1J6hmUg5ZGY0,47.3648141,-1.1816088,,,,
+44,"L'île de Nantes",telegram,+4Hml85LTV8c1ZjA0,https://t.me/+4Hml85LTV8c1ZjA0,47.2044623,-1.5601228,,,,
+44,"Malakoff – Saint Donatien",telegram,+nKqjGihlVlM5ZDBk,https://t.me/+nKqjGihlVlM5ZDBk,47.2286856,-1.543011,,,,
+44,"Nantes agglomération",telegram,+FVgpAoiS7-IzMTA0,https://t.me/+FVgpAoiS7-IzMTA0,47.2278821,-1.8054421,,,,
+44,"Nantes Nord",telegram,+pXKibPlTgwFkNzBk,https://t.me/+pXKibPlTgwFkNzBk,47.2683756,-1.5553177,,,,
+44,Rezé,telegram,+7ifqGHbsJ6QwMDlk,https://t.me/+7ifqGHbsJ6QwMDlk,47.1905456,-1.5695287,,,,
+46,"Lotois (Figeac/Cahors/Souillac)",telegram,collectifsunis31/25451,https://t.me/collectifsunis31/25451,44.772818,2.0035894,,,,
+51,Reims,telegram,+5LH0u6BO-dU1ZTNk,https://t.me/+5LH0u6BO-dU1ZTNk,49.2457628,4.0230733,,,,
+57,"Saint-Avold et environs",telegram,+6Qbs3_5up-o0NTQ0,https://t.me/+6Qbs3_5up-o0NTQ0,49.1043397,6.7071754,,,,
+64,Bayonne,telegram,c/1698890845/6295,https://t.me/c/1698890845/6295,43.4945144,-1.4736657,,,,
+64,Pau,telegram,c/1698890845/6062,https://t.me/c/1698890845/6062,43.2957547,-0.3685668,,,,
+69,Lyon,telegram,+SuOiGcRJZoliMDk0,https://t.me/+SuOiGcRJZoliMDk0,45.7578137,4.8320114,,,,
+71,"Chalon-sur-Saône, Le Creusot et Montceau-les-Mines",telegram,+a3tRDc53UHk0ZTFi,https://t.me/+a3tRDc53UHk0ZTFi,46.718655,4.5958855,,,,
+71,Louhans,telegram,+cx3AdCMJvBFiNmQ0,https://t.me/+cx3AdCMJvBFiNmQ0,46.6277563,5.221234,,,,
+71,"Mâcon, Cluny, Charolles",telegram,+EuVCnflkkFxkODdk,https://t.me/+EuVCnflkkFxkODdk,46.3922617,4.6013122,,,,
+76,Dieppe,telegram,+U8b1aHTa_wdjN2I0,https://t.me/+U8b1aHTa_wdjN2I0,49.9246182,1.0791444,,,,
+76,Rouen,telegram,+cWtCwdI2cv1lYzVk,https://t.me/+cWtCwdI2cv1lYzVk,49.4404591,1.0939658,,,,
+76,"Le Havre",telegram,+nwEOj3XdQGk5MjQ0,https://t.me/+nwEOj3XdQGk5MjQ0,49.4938975,0.1079732,,,,
+79,Bressuire,telegram,c/1698890845/6144,https://t.me/c/1698890845/6144,46.8425572,-0.4929017,,,,
+79,Niort,telegram,c/1698890845/6057,https://t.me/c/1698890845/6057,46.3239233,-0.4646064,,,,
+79,Thouars,telegram,c/1698890845/12612,https://t.me/c/1698890845/12612,46.9790193,-0.2153741,,,,
+86,Châtellerault,telegram,c/1698890845/12334,https://t.me/c/1698890845/12334,46.8180047,0.545812,,,,
+86,Poitiers,telegram,c/1698890845/6055,https://t.me/c/1698890845/6055,46.5802596,0.340196,,,,

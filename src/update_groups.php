@@ -5,37 +5,37 @@ error_reporting(error_level: E_ALL);
  * Génère la liste des groupes
  */
 
-const MESS_FILE_WRITTING_ERROR = 'Impossible d\'écrire le fichier %s';
+const MESS_FILE_WRITING_ERROR = 'Impossible d\'écrire le fichier %s';
 
 // Catégories de groupes
 const CATEGORIE_GROUPE = [
 	'Réseaux sociaux' => [
-		'fields'   => ['rs_icon', 'nom_rs', 'url'],
+		'fields'	 => ['rs_icon', 'nom_rs', 'url'],
 		'filepath' => 'groupes_nat.csv'
 	],
 	'Monde' => [
-		'fields'   => ['nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'fields'	 => ['nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_monde.csv'
 	],
 	'Autres groupes' => [
-		'fields'   => ['nom', 'rs_icon', 'nom_rs', 'url'],
+		'fields'	 => ['nom', 'rs_icon', 'nom_rs', 'url'],
 		'filepath' => 'groupes_autres.csv'
 	],
 	'Régions' => [
-		'fields'   => ['code_insee_region', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'fields'	 => ['code_insee_region', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_reg.csv',
-		'child'    => ['Départements' => 'code_insee_region']
+		'child'		=> ['Départements' => 'code_insee_region']
 	],
 	'Départements' => [
-		'fields'   => ['code_insee_region', 'code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'fields'	 => ['code_insee_region', 'code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_dep.csv',
-		'ischild'  => true,
-		'child'    => ['' => 'code_insee_dep']
+		'ischild'	=> true,
+		'child'		=> ['' => 'code_insee_dep']
 	],
 	'' => [
-		'fields'   => ['code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
+		'fields'	 => ['code_insee_dep', 'nom', 'rs_icon', 'nom_rs', 'url', 'latitude', 'longitude'],
 		'filepath' => 'groupes_loc.csv',
-		'ischild'  => true,
+		'ischild'	=> true,
 	]
 ];
 
@@ -47,6 +47,20 @@ $rootPath = dirname(path: $path) .'/';
 
 // Chemin absolu des données
 $dataPath = $path . 'data/';
+
+
+/**
+ * Coupe une chaîne trop longue et y ajoute "..."
+ *
+ * @param string $txt
+ * @param int $len
+ * @return string
+ */
+function cutstr($txt, $len = 30) {
+	if (strlen($txt) > $len)
+		$txt = substr($txt, 0, $len) . '...';
+	return $txt;
+}
 
 /**
  * Retourne un tableau trié par $field
@@ -65,12 +79,11 @@ function sort_by_field(array $array, string $field): array
 		$result[$field_value][$i] = $rec;
 		$i++;
 	}
-
 	return $result;
 }
 
 /**
- *  Trie les groupes et y ajoute les enfants
+ *	Trie les groupes et y ajoute les enfants
  *
  * @param array $catGroups
  * @param array $groups
@@ -99,16 +112,16 @@ function sort_groups(array $catGroups, array $groups): array
 			if (isset($child_key_name, $child_layer_name)) {
 				$child_key = $rec[key($rec)][$child_key_name];
 				$children = array_filter(
-                    array: $groups[$child_layer_name],
+										array: $groups[$child_layer_name],
 					callback: function ($rec) use ($child_key, $child_key_name) {
 						return ($rec[$child_key_name] == $child_key);
 					});
 				$children = sort_by_field(array: $children, field: 'nom');
 				foreach ($children as $i => $childs) {
 					$sorted_children[$i] = sort_by_field(
-                        array: $childs,
-                        field: 'rs_icon'
-                    );
+												array: $childs,
+												field: 'rs_icon'
+										);
 				}
 			}
 			$item = ['item' => sort_by_field(array: $rec, field: 'rs_icon')];
@@ -123,28 +136,28 @@ function sort_groups(array $catGroups, array $groups): array
 }
 
 try {
-    $records = CsvHelper::loadCSV(catGroups: CATEGORIE_GROUPE, dataPath: $dataPath);
-    $groups = sort_groups(catGroups: CATEGORIE_GROUPE, groups: $records);
-    // Remplit le template
-    ob_start();
-    include($path . 'templates/groupes.php');
-    $html = ob_get_clean();
+		$records = CsvHelper::loadCSV(catGroups: CATEGORIE_GROUPE, dataPath: $dataPath);
+		$groups = sort_groups(catGroups: CATEGORIE_GROUPE, groups: $records);
+		// Remplit le template
+		ob_start();
+		include($path . 'templates/groupes.php');
+		$html = ob_get_clean();
 
-    // Validation et nettoyage du contenu HTML
-    //$html = htmlspecialchars($html, ENT_QUOTES, 'UTF-8', false);
+		// Validation et nettoyage du contenu HTML
+		//$html = htmlspecialchars($html, ENT_QUOTES, 'UTF-8', false);
 
-    $destPath = $rootPath . 'global/ssi/groupes.shtml';
-    $destFile = fopen(filename: $destPath, mode: 'w');
-    if ($destFile === false) {
-        throw new Exception(
-            message: sprintf(
-                MESS_FILE_WRITTING_ERROR,
-                $destPath
-            )
-        );
-    }
-    fwrite(stream: $destFile, data: $html);
-    fclose(stream: $destFile);
+		$destPath = $rootPath . 'global/ssi/groupes.shtml';
+		$destFile = fopen(filename: $destPath, mode: 'w');
+		if ($destFile === false) {
+				throw new Exception(
+						message: sprintf(
+								MESS_FILE_WRITING_ERROR,
+								$destPath
+						)
+				);
+		}
+		fwrite(stream: $destFile, data: $html);
+		fclose(stream: $destFile);
 } catch (Exception $e) {
-    exit($e->getMessage());
+		exit($e->getMessage());
 }

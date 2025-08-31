@@ -4,10 +4,13 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 84,7,Ardèche,telegram,+e6HcO3Fq_MViYzZk,https://t.me//+e6HcO3Fq_MViYzZk,44.7527552575178,4.42560660942855
 76,12,Aveyron,telegram,+q3dsx7KFvWI4Yjk0,https://t.me/+q3dsx7KFvWI4Yjk0,44.2810927578172,2.67856609933218
 84,15,Cantal,telegram,+q3dsx7KFvWI4Yjk0,https://t.me/+aSs9MVDIrDdhYTdk,45.0512544427698,2.66900714956007
+53,22,"Côtes d'Armor",telegram,indignonsnous22,https://t.me/indignonsnous22,48.496678938436126,-2.724843709818968
 27,25,Doubs,telegram,doubs10Sep,https://t.me/doubs10Sep,47.165957182681,6.36273109908717
 84,26,Drôme,telegram,+e6HcO3Fq_MViYzZk,https://t.me//+e6HcO3Fq_MViYzZk,44.6852183299174,5.16738893349826
+53,29,Finistère,telegram,+U8b1aHTa_wdjN2I0,https://t.me/+U8b1aHTa_wdjN2I0,48.2451152,-4.0440902
 76,31,Haute-Garonne,telegram,+c0kAEvwvEJtiYTY8,https://t.me/+c0kAEvwvEJtiYTY8,43.35861,1.17278
 53,35,Ille-et-Vilaine,telegram,+Mqrir6Q8w1U4NmVk,https://t.me/+Mqrir6Q8w1U4NmVk,48.1550674097419,-1.63814124623274
+53,35,"Ille-et-Vilaine (AG)",signal,#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,https://signal.group/#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O,48.117266,-1.677793
 84,38,Isère,telegram,IndignonsnousIsere,https://t.me/IndignonsnousIsere,45.2639297501076,5.57419814523139
 84,42,Loire,telegram,+sU3LLbwW12IwMjBk,https://t.me/+sU3LLbwW12IwMjBk,45.7280202256173,4.16453524795746
 84,43,Haute-Loire,telegram,+E27DUVUAQx41NGJk,https://t.me/+E27DUVUAQx41NGJk,45.126351,3.805733
@@ -32,6 +35,7 @@ code_insee_region,code_insee_dep,nom,rs_icon,nom_rs,url,latitude,longitude
 44,88,Vosges,telegram,+KsMKfMWAJpxhZjFk,https://t.me/+KsMKfMWAJpxhZjFk,48.1962901403276,6.38013008094864
 45,89,Vosges,telegram,indignonsnousvosge,https://www.instagram.com/indignonsnousvosges/,48.1,6
 27,89,Yonne,telegram,+iD-DeyFq66FjMzlk,https://t.me/+iD-DeyFq66FjMzlk,47.840515089836,3.56331862412441
+27,90,"Territoire de Belfort",telegram,+VMgGJ5vZ9kFhMDRk,https://t.me/+VMgGJ5vZ9kFhMDRk,47.629231,6.8993012
 11,91,Essonne,telegram,+ZMP8cVktBdQ2YjM0,https://t.me/+ZMP8cVktBdQ2YjM0,48.5226198884686,2.24338748665539
 11,92,Hauts-de-Seine,telegram,+iMFbUWAScFw5MzFk,https://t.me/+iMFbUWAScFw5MzFk,48.8475388508384,2.24606874275799
 11,93,Seine-Saint-Denis,telegram,+eo1IAGG_uV9lN2Zk,https://t.me/+eo1IAGG_uV9lN2Zk,48.9176098962278,2.47854089128323

@@ -99,8 +99,9 @@ class CsvHelper
         for ($i = 0; $i < $nb_records; $i++) {
             $ca = [];
             for ($j = 0; $j < $nb_fields; $j++) {
+                $value = isset($cat_array[$i][$j]) ? (string)$cat_array[$i][$j] : '';
                 $ca += [$fields[$j] => htmlspecialchars(
-                    string: $cat_array[$i][$j],
+                    string: $value,
                     flags: ENT_QUOTES,
                     encoding: 'UTF-8',
                     double_encode: false

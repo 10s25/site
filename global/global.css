@@ -61,6 +61,20 @@ h4 { font-size: clamp(1.2rem, 2.5vw, 1.8rem); }
 h5 { font-size: 1rem; }
 h5 { font-size: clamp(1rem, 2vw, 1.3rem); }
 
+/* ==== Liens ==== */
+a.bouton {
+	display: flex; width: 100%; background: #f2e25b; color: #0d0d0d; align-items: center;
+	justify-content: center; font-weight: 600; padding: 10px 0;
+	transition: background-color 0.3s, color 0.3s;
+}
+a.bouton:hover { background-color: #F52639; color: #fff; }
+
+/* ==== Texte ==== */
+.fs-2 {
+    font-size: 2em !important; /* ou la taille du texte principal */
+    line-height: 1;   /* réduit l’espace vertical autour de l’emoji */
+}
+
 /* ==== Code ==== */
 code { font-size: 0.8em; padding: 10px; }
 code { font-size: clamp(0.7rem, 1.5vw, 0.8em); }
@@ -143,30 +157,7 @@ main#center {
 	width: 100%;
 	margin: 0 20px;
 }
-#content .postit {
-	max-width: 100%;
-	padding: 20px;
-	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
-	margin: 0 20px 20px 30px;
-	box-sizing: border-box;
-}
-#content .postit {
-	padding: clamp(20px, 5vw, 50px);
-}
-#content .postit div.postit-content {
-	transform: rotate(1deg) translateX(20px) translateY(20px);
-}
-#content section.postit ul {
-	padding-left: 50px;
-	margin: 1.5em 0;
-	font-weight: bold;
-}
-#content section.postit ul li {
-	background: url("/global/img/gyro.gif") no-repeat center left;
-	padding: 0 0 0 30px;
-	font-weight: bold;
-	display: flex;
-}
+
 #content p.big, #content p.big p, #content p.big span {
 	font-size: 1.5rem;
 	margin: 30px 0;
@@ -201,6 +192,42 @@ main#center {
 	text-align: left;line-height: 1.3; margin: 0;
 	font-size: clamp(1rem, 3vw, 2em);
 }
+
+/* ==== Postit ==== */
+.postit {
+	max-width: 100%;
+	padding: 20px;
+	transform: rotate(-1deg) translateX(-20px) translateY(-20px);
+	margin: 0 20px 20px 30px;
+	box-sizing: border-box;
+	box-shadow:
+		inset 0 -40px 40px rgba(0,0,0,0.2),
+		inset 0 25px 10px rgba(0,0,0,0.2),
+		0 5px 6px 5px rgba(0,0,0,0.2);
+	background-image: url("/global/img/pin.png");
+	background-repeat: no-repeat;
+	background-position : center 5px;
+	background-size: 50px;
+}
+.postit {
+	padding: clamp(20px, 5vw, 50px);
+}
+.postit div.postit-content {
+	transform: rotate(1deg) translateX(20px) translateY(20px);
+}
+
+section.postit ul {
+	padding-left: 50px;
+	margin: 1.5em 0;
+	font-weight: bold;
+}
+section.postit ul li {
+	background: url("/global/img/gyro.gif") no-repeat center left;
+	padding: 0 0 0 30px;
+	font-weight: bold;
+	display: flex;
+}
+
 /* ==== Bas de page ==== */
 #footer {
 	width: 100%;
@@ -225,7 +252,7 @@ main#center {
 	main#center { flex-direction: column; align-items: center; text-align: left; }
 	#sidebar { order: 2; width: 100%; min-width: 0;}
 	#content { order: 1; margin: 10px; }
-	#content .postit { padding: 15px; margin: 10px 0; transform: none; }
+	#content .postit { padding: 40px 15px 15px 15px; margin: 10px 0; transform: none; }
 	#content .postit div.postit-content { transform: none; }
 	#footer { margin: 20px 10px; }
 	#footer section.postit { transform: none; margin: 20px 0; }
@@ -240,3 +267,11 @@ main#center {
 	#content .danger-banner span.text { font-size: 1rem; }
 	#sidebar { min-width: 0; padding: 15px; }
 }
+/* ==== Impression ==== */
+@media only print {
+	#menu_top {
+		display: none !important;
+	}
+}
+
+
