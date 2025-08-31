@@ -43,6 +43,20 @@ h4 { font-size: clamp(1.2rem, 2.5vw, 1.8rem); }
 h5 { font-size: 1rem; }
 h5 { font-size: clamp(1rem, 2vw, 1.3rem); }
 
+/* ==== Liens ==== */
+a.bouton {
+	display: flex; width: 100%; background: #f2e25b; color: #0d0d0d; align-items: center;
+	justify-content: center; font-weight: 600; padding: 10px 0;
+	transition: background-color 0.3s, color 0.3s;
+}
+a.bouton:hover { background-color: #F52639; color: #fff; }
+
+/* ==== Texte ==== */
+.fs-2 {
+    font-size: 2em !important; /* ou la taille du texte principal */
+    line-height: 1;   /* réduit l’espace vertical autour de l’emoji */
+}
+
 /* ==== Code ==== */
 code { font-size: 0.8em; padding: 10px; }
 code { font-size: clamp(0.7rem, 1.5vw, 0.8em); }

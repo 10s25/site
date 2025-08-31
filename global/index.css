@@ -75,12 +75,6 @@ ul.liste_groupes > li > p {
 
 /* ==== Carte ==== */
 .map { width: 100%; }
-.map a {
-	display: flex; width: 100%; background: #f2e25b; color: #0d0d0d; align-items: center;
-	justify-content: center; font-weight: 600; padding: 10px 0;
-	transition: background-color 0.3s, color 0.3s;
-}
-.map a:hover { background-color: #F52639; color: #fff; }
 .map p.big { padding: 0 20px; }
 iframe.carte { width: 98%; height: 800px; }
 
@@ -99,4 +93,22 @@ iframe.carte { width: 98%; height: 800px; }
 #ferie {
 	padding: 5px 15px;
 	transform: rotate(-5deg);
+}
+
+.aide {
+    background-color: #f2e25b;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #0d0d0d;
+}
+
+.aide span.fs-2 {
+	margin-bottom: 0 !important;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.aide a:hover {
+    color: #0d0d0d;
 }
