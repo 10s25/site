@@ -1,0 +1,39 @@
+#
+#	Import des framacalcs dans /src/data/
+# L'url des framacalcs est stockée dans des secrets Github
+#
+# ACTION OBSOLETE (à modifier pour récupérer directement le html depuis le cms)
+#
+name: Import CMS DATA
+run-name: ${{ github.actor }} update from Framacalcs
+
+on:
+#  workflow_dispatch:
+#  schedule:
+#    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  import_cms:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            global/ssi
+
+      - name: Import shtml
+        run: |
+          wget -O "global/ssi/groupes.shtml" https://10s25.ovh/cms/?page=groupes
+
+      - name: Commit changes
+        run: |
+          git config user.name "$(git log -n 1 --pretty=format:%an)"
+          git config user.email "$(git log -n 1 --pretty=format:%ae)"
+          git commit -am "Updated by action Commit Framacalcs"
+          git push
+          echo "Update pushed."
