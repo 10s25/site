@@ -1,813 +1,4608 @@
 <ul class="sidebar-section-1">
 	<li>
 		<h3 class="font-yellow">Réseaux sociaux</h3>
-		<ul class="sidebar-section-2">
-			<li>
-								<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+B5CJp-RUGpAzMmQ8" target="_blank" rel="me">+B5CJp-RUGpAzMmQ8</a>
-							</li>
-						</ul>
-					</li>
-					<li class="instagram">
-						<p>Instagram</p>
-						<ul>
-							<li>
-								<a href="https://www.instagram.com/indignons_nous_bloquons_tout" target="_blank" rel="me">indignons_nous_bloquons_tout</a>
-							</li>
-							<li>
-								<a href="https://www.instagram.com/10s25officiel" target="_blank" rel="me">10s25officiel</a>
-							</li>
-						</ul>
-					</li>
-					<li class="tiktok">
-						<p>TikTok</p>
-						<ul>
-							<li>
-								<a href="https://www.tiktok.com/@indignons.nous" target="_blank" rel="me">@indignons.nous</a>
-							</li>
-							<li>
-								<a href="https://www.tiktok.com/@10s251" target="_blank" rel="me">@10s251</a>
-							</li>
-						</ul>
-					</li>
-					<li class="facebookp">
-						<p>Facebook (pages)</p>
-						<ul>
-							<li>
-								<a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank" rel="me">Indignons nous</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/profile.php?id=61579323892404" target="_blank" rel="me">Dix Septembre</a>
-							</li>
-						</ul>
-					</li>
-					<li class="facebookg">
-						<p>Facebook (groupes)</p>
-						<ul>
-							<li>
-								<a href="https://www.facebook.com/groups/1045232717369832" target="_blank" rel="me">INDIGNONS NOUS 10 SEPTEMBRE</a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/groups/10s25" target="_blank" rel="me">10s25</a>
-							</li>
-						</ul>
-					</li>
-					<li class="twitter">
-						<p>X (Twitter)</p>
-						<ul>
-							<li>
-								<a href="https://x.com/indignonsn" target="_blank" rel="me">@IndignonsN</a>
-							</li>
-							<li>
-								<a href="https://x.com/Le10S25" target="_blank" rel="me">@Le10S25</a>
-							</li>
-						</ul>
-					</li>
-					<li class="bluesky">
-						<p>Bluesky</p>
-						<ul>
-							<li>
-								<a href="https://bsky.app/profile/10s25.bsky.social" target="_blank" rel="me">10s25.bsky.social</a>
-							</li>
-						</ul>
-					</li>
-					<li class="piaille">
-						<p>Piaille</p>
-						<ul>
-							<li>
-								<a href="https://piaille.fr/@10s25" target="_blank" rel="me">@10s25</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
+        <ul class="sidebar-section-2">
+            <li>
+                <ul>
+    
+        
+            <li class="bluesky">
+                <p>Bluesky</p>
+                <ul>
+                    
+                        <li><a href="https://bsky.app/profile/10s25.bsky.social" target="_blank" rel="me">10s25.bsky.social</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="facebookp">
+                <p>Facebook - Page</p>
+                <ul>
+                    
+                        <li><a href="https://www.facebook.com/people/Indignons-nous/61578641433778" target="_blank" rel="me">Indignons nous</a></li>
+                    
+                        <li><a href="https://www.facebook.com/profile.php?id=61579323892404" target="_blank" rel="me">Dix Septembre</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="facebookg">
+                <p>Facebook - Groupe</p>
+                <ul>
+                    
+                        <li><a href="https://www.facebook.com/groups/1045232717369832" target="_blank" rel="me">INDIGNONS NOUS 10 SEPTEMBRE</a></li>
+                    
+                        <li><a href="https://www.facebook.com/groups/10s25" target="_blank" rel="me">10s25</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="instagram">
+                <p>Instagram</p>
+                <ul>
+                    
+                        <li><a href="https://www.instagram.com/indignons_nous_bloquons_tout" target="_blank" rel="me">indignons_nous_bloquons_tout</a></li>
+                    
+                        <li><a href="https://www.instagram.com/10s25officiel" target="_blank" rel="me">10s25officiel</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="piaille">
+                <p>Piaille</p>
+                <ul>
+                    
+                        <li><a href="https://piaille.fr/@10s25" target="_blank" rel="me">@10s25</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https:/t.me/+B5CJp-RUGpAzMmQ8" target="_blank" rel="me">+B5CJp-RUGpAzMmQ8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="tiktok">
+                <p>TikTok</p>
+                <ul>
+                    
+                        <li><a href="https://www.tiktok.com/@indignons.nous" target="_blank" rel="me">@indignons.nous</a></li>
+                    
+                        <li><a href="https://www.tiktok.com/@10s251" target="_blank" rel="me">@10s251</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+            <li class="twitter">
+                <p>X (Twitter)</p>
+                <ul>
+                    
+                        <li><a href="https://x.com/indignonsn" target="_blank" rel="me">@IndignonsN</a></li>
+                    
+                        <li><a href="https://x.com/Le10S25" target="_blank" rel="me">@Le10S25</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+</ul>            </li>
+        </ul>
 	</li>
 	<li>
 		<h3 class="font-yellow">Monde</h3>
-		<ul class="sidebar-section-2">
-			<li>
-				<p class="font-yellow">BELGIQUE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+vXyhM9YVjzMyOTJk" target="_blank" rel="me">+vXyhM9YVjzMyOTJk</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
+        <ul class="sidebar-section-2">
+            
+                <li>
+        <p class="font-yellow">Belgique</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+vXyhM9YVjzMyOTJk" target="_blank" rel="me">+vXyhM9YVjzMyOTJk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+        </ul>
 	</li>
 	<li>
 		<h3 class="font-yellow">Autres groupes</h3>
-		<ul class="sidebar-section-2">
-			<li>
-				<p class="font-yellow">ÉTUDIANTS</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/dixseptembreetudiant" target="_blank" rel="me">dixseptembreetudiant</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">MARCHE - 10 SEPTEMBRE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" rel="me">+0jfTtV0l27RjZmU0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">10S25</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+4zU11agZFXlhM2Nk" target="_blank" rel="me">+4zU11agZFXlhM2Nk</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">Nourrir le mouvement</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+Lbb4F9zcebYzMzk0" target="_blank" rel="me">+Lbb4F9zcebYzMzk0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
+        <ul class="sidebar-section-2">
+            
+                <li>
+        <p class="font-yellow">ÉTUDIANTS</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/dixseptembreetudiant" target="_blank" rel="me">dixseptembreetudiant</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">10S25</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+4zU11agZFXlhM2Nk" target="_blank" rel="me">+4zU11agZFXlhM2Nk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">MARCHE - 10 SEPTEMBRE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+0jfTtV0l27RjZmU0" target="_blank" rel="me">+0jfTtV0l27RjZmU0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">Nourrir le mouvement</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+Lbb4F9zcebYzMzk0" target="_blank" rel="me">+Lbb4F9zcebYzMzk0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+        </ul>
 	</li>
 	<li>
 		<h3 class="font-yellow">Régions</h3>
-		<ul class="sidebar-section-2">
-			<li>
-				<p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+2ydXihH_ft43OWI8" target="_blank" rel="me">+2ydXihH_ft43OWI8</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Ain</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+ZGgNVBU6mSEwNGQ0" target="_blank" rel="me">+ZGgNVBU6mSEwNGQ0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Allier</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+VFRy-ZfSY6QwY2Rk" target="_blank" rel="me">+VFRy-ZfSY6QwY2Rk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Ardèche</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me//+e6HcO3Fq_MViYzZk" target="_blank" rel="me">+e6HcO3Fq_MViYzZk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Cantal</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+aSs9MVDIrDdhYTdk" target="_blank" rel="me">+q3dsx7KFvWI4Yjk0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Drôme</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me//+e6HcO3Fq_MViYzZk" target="_blank" rel="me">+e6HcO3Fq_MViYzZk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Isère</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/IndignonsnousIsere" target="_blank" rel="me">IndignonsnousIsere</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Loire</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+sU3LLbwW12IwMjBk" target="_blank" rel="me">+sU3LLbwW12IwMjBk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Haute-Loire</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+E27DUVUAQx41NGJk" target="_blank" rel="me">+E27DUVUAQx41NGJk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Puy-de-Dôme</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/bloquons63" target="_blank" rel="me">bloquons63</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Rhône</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+wMC00KhgGZI2ZmFk" target="_blank" rel="me">+wMC00KhgGZI2ZmFk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Savoie</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+p5TyIw3AYqtmOGVk" target="_blank" rel="me">+p5TyIw3AYqtmOGVk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Haute-Savoie</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+g8gK3s_SLZ5mMTU0" target="_blank" rel="me">+g8gK3s_SLZ5mMTU0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+VMgGJ5vZ9kFhMDRk" target="_blank" rel="me">+VMgGJ5vZ9kFhMDRk</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Doubs</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/doubs10Sep" target="_blank" rel="me">doubs10Sep</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Nièvre</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/c/2538292516/23" target="_blank" rel="me">c2538292516/23</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Saône-et-Loire</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+FAOiwCmuv1dhMDA0" target="_blank" rel="me">+FAOiwCmuv1dhMDA0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Yonne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+iD-DeyFq66FjMzlk" target="_blank" rel="me">+iD-DeyFq66FjMzlk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">BRETAGNE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+2zyykrgSNYI4YmQ0" target="_blank" rel="me">+2zyykrgSNYI4YmQ0</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Ille-et-Vilaine</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+Mqrir6Q8w1U4NmVk" target="_blank" rel="me">+Mqrir6Q8w1U4NmVk</a>
-									</li>
-									<li>
-										<a href="https://t.me/+I0aLRlPXY7U5MDlk" target="_blank" rel="me">+I0aLRlPXY7U5MDlk</a>
-									</li>
-								</ul>
-							</li>
-							<li class="child signal">
-								<p>Signal</p>
-								<ul>
-									<li>
-										<a href="https://signal.group/#CjQKIMUXWaZSpVgPZHSYbmkAJC78OGrN2LzW39e-aeqrPW_dEhAi-NHzBLqOoNxpYX9zXt4O" target="_blank" rel="me">#CjQKIMUXWaZSpVgPZHSYbmkAJC78O...</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Côtes d&#039;Armor</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/indignonsnous22" target="_blank" rel="me">indignonsnous22</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">CENTRE-VAL DE LOIRE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+jR9bqrSbZVdkM2E8" target="_blank" rel="me">+jR9bqrSbZVdkM2E8</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Loiret</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+7moVpfgguQwyZjJk" target="_blank" rel="me">+7moVpfgguQwyZjJk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">CORSE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" rel="me">+6nGU1MKqF1E1MTI0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">GRAND EST</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+DwayRkLGjxBhYjc0" target="_blank" rel="me">+DwayRkLGjxBhYjc0</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Bas-Rhin</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://link.infini.fr/10sept25basrhin" target="_blank" rel="me">10sept25basrhin</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Haut-Rhin</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+dAf_whfVF2s1MGRk" target="_blank" rel="me">+dAf_whfVF2s1MGRk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Vosges</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+KsMKfMWAJpxhZjFk" target="_blank" rel="me">+KsMKfMWAJpxhZjFk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">HAUTS-DE-FRANCE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+07fmAOi30jA1ODhk" target="_blank" rel="me">+07fmAOi30jA1ODhk</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Oise</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+EIr-ak1256wzZWFk" target="_blank" rel="me">+EIr-ak1256wzZWFk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">ÎLE-DE-FRANCE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/retlIDF" target="_blank" rel="me">retlIDF</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Paris</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+9gxXN61OSBw4YWRk" target="_blank" rel="me">+9gxXN61OSBw4YWRk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Seine-et-Marne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+rkUgIevw6EM3ZDY0" target="_blank" rel="me">+rkUgIevw6EM3ZDY0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Yvelines</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+q52fTby8owBmNTA0" target="_blank" rel="me">+q52fTby8owBmNTA0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Essonne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+ZMP8cVktBdQ2YjM0" target="_blank" rel="me">+ZMP8cVktBdQ2YjM0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Hauts-de-Seine</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+iMFbUWAScFw5MzFk" target="_blank" rel="me">+iMFbUWAScFw5MzFk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Seine-Saint-Denis</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+eo1IAGG_uV9lN2Zk" target="_blank" rel="me">+eo1IAGG_uV9lN2Zk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Val-de-Marne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+MVVfx3Afj6AzNzFk" target="_blank" rel="me">+MVVfx3Afj6AzNzFk</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">NORMANDIE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+NY521X2MIxxhNzQ0" target="_blank" rel="me">+NY521X2MIxxhNzQ0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">NOUVELLE-AQUITAINE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+fFVATyvoOWowZjA0" target="_blank" rel="me">+NY521X2MIxxhNzQ0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">OCCITANIE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/collectifsunis31" target="_blank" rel="me">collectifsunis31</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Aveyron</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+q3dsx7KFvWI4Yjk0" target="_blank" rel="me">+q3dsx7KFvWI4Yjk0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Haute-Garonne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+c0kAEvwvEJtiYTY8" target="_blank" rel="me">+c0kAEvwvEJtiYTY8</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">PAYS DE LA LOIRE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" rel="me">+UlH4Zr3yf5FjMmRk</a>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Loire-Atlantique</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+sKVR6vGagq82OTA0" target="_blank" rel="me">+sKVR6vGagq82OTA0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Maine-et-Loire</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+sH1EnfLBhMY4M2M0" target="_blank" rel="me">+sH1EnfLBhMY4M2M0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Mayenne</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+a8Tv2s6foOxhNzE0" target="_blank" rel="me">+a8Tv2s6foOxhNzE0</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Sarthe</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/+hh9tPqdATphiZjE8" target="_blank" rel="me">+hh9tPqdATphiZjE8</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-					<li>
-						<p class="font-yellow">Vendée</p>						<ul>
-							<li class="child telegram">
-								<p>Telegram</p>
-								<ul>
-									<li>
-										<a href="https://t.me/vendee10S" target="_blank" rel="me">vendee10S</a>
-									</li>
-								</ul>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">PROVENCE-ALPES-CÔTE D&#039;AZUR</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" rel="me">+6nGU1MKqF1E1MTI0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">LA RÉUNION</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+l81KX9i3Z39hZWU8" target="_blank" rel="me">+l81KX9i3Z39hZWU8</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">MARTINIQUE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+-G6drNd53xQwYTI0" target="_blank" rel="me">+-G6drNd53xQwYTI0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-			<li>
-				<p class="font-yellow">GUYANE</p>				<ul>
-					<li class="telegram">
-						<p>Telegram</p>
-						<ul>
-							<li>
-								<a href="https://t.me/+BZyC3CpGCIZhY2Q0" target="_blank" rel="me">+BZyC3CpGCIZhY2Q0</a>
-							</li>
-						</ul>
-					</li>
-				</ul>
-			</li>
-		</ul>
+        <ul class="sidebar-section-2">
+            
+                <li>
+        <p class="font-yellow">AUVERGNE-RHÔNE-ALPES</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+2ydXihH_ft43OWI8" target="_blank" rel="me">+2ydXihH_ft43OWI8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">01 - Ain</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+ZGgNVBU6mSEwNGQ0" target="_blank" rel="me">+ZGgNVBU6mSEwNGQ0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">03 - Allier</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+VFRy-ZfSY6QwY2Rk" target="_blank" rel="me">+VFRy-ZfSY6QwY2Rk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">07 - Ardèche</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+e6HcO3Fq_MViYzZk" target="_blank" rel="me">+e6HcO3Fq_MViYzZk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Annonay</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC" target="_blank" rel="me">CjQKIN7E-gSGlNaoJ25ZMI3Y9doezYeHYhvp1QCZ2nW0P2eXEhA0c5wG-b43MjqKLu_tFcgC</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">15 - Cantal</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+aSs9MVDIrDdhYTdk" target="_blank" rel="me">+aSs9MVDIrDdhYTdk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">26 - Drôme</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+e6HcO3Fq_MViYzZk" target="_blank" rel="me">+e6HcO3Fq_MViYzZk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">38 - Isère</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/IndignonsnousIsere" target="_blank" rel="me">IndignonsnousIsere</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Grenoble</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+OKXn5kHL8-M4NTM0" target="_blank" rel="me">+OKXn5kHL8-M4NTM0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">42 - Loire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+sU3LLbwW12IwMjBk" target="_blank" rel="me">+sU3LLbwW12IwMjBk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">43 - Haute-Loire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+E27DUVUAQx41NGJk" target="_blank" rel="me">+E27DUVUAQx41NGJk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">63 - Puy-de-Dôme</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/bloquons63" target="_blank" rel="me">bloquons63</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">69 - Rhône</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+wMC00KhgGZI2ZmFk" target="_blank" rel="me">+wMC00KhgGZI2ZmFk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Lyon</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+SuOiGcRJZoliMDk0" target="_blank" rel="me">+SuOiGcRJZoliMDk0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">73 - Savoie</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+p5TyIw3AYqtmOGVk" target="_blank" rel="me">+p5TyIw3AYqtmOGVk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">74 - Haute-Savoie</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+g8gK3s_SLZ5mMTU0" target="_blank" rel="me">+g8gK3s_SLZ5mMTU0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">BOURGOGNE-FRANCHE-COMTE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+VMgGJ5vZ9kFhMDRk" target="_blank" rel="me">+VMgGJ5vZ9kFhMDRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">25 - Doubs</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/doubs10Sep" target="_blank" rel="me">doubs10Sep</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">58 - Nièvre</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+qgdxdUtp-xg3OTI0" target="_blank" rel="me">+qgdxdUtp-xg3OTI0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">71 - Saône-et-Loire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+FAOiwCmuv1dhMDA0" target="_blank" rel="me">+FAOiwCmuv1dhMDA0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Chalon/Creusot/Montceau</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+a3tRDc53UHk0ZTFi" target="_blank" rel="me">+a3tRDc53UHk0ZTFi</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Louhans</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+cx3AdCMJvBFiNmQ0" target="_blank" rel="me">+cx3AdCMJvBFiNmQ0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Mâcon - Cluny - Charolles</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+EuVCnflkkFxkODdk" target="_blank" rel="me">+EuVCnflkkFxkODdk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Mâcon, Cluny, Charolles</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+EuVCnflkkFxkODdk" target="_blank" rel="me">+EuVCnflkkFxkODdk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Tournus</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+BeznZsPiKJ8wZTg0" target="_blank" rel="me">+BeznZsPiKJ8wZTg0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">89 - Yonne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+iD-DeyFq66FjMzlk" target="_blank" rel="me">+iD-DeyFq66FjMzlk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Pays d’Avallon</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+-jnceFS4skczOGJk" target="_blank" rel="me">+-jnceFS4skczOGJk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">90 - Territoire de Belfort</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+            <li class="facebookg">
+                <p>Facebook - Groupe</p>
+                <ul>
+                    
+                        <li><a href="https://www.facebook.com/groups/746638358272365/" target="_blank" rel="me">Bloquons tout 90</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+VMgGJ5vZ9kFhMDRk" target="_blank" rel="me">+VMgGJ5vZ9kFhMDRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">BRETAGNE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+2zyykrgSNYI4YmQ0" target="_blank" rel="me">+2zyykrgSNYI4YmQ0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">22 - Côtes d&#8217;Armor</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/indignonsnous22" target="_blank" rel="me">indignonsnous22</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">29 - Finistère</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+U8b1aHTa_wdjN2I0" target="_blank" rel="me">+U8b1aHTa_wdjN2I0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">35 - Ille-et-Vilaine</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+Mqrir6Q8w1U4NmVk" target="_blank" rel="me">+Mqrir6Q8w1U4NmVk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Rennes</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED" target="_blank" rel="me">CjQKIKpBWHOnofOcG3QB75_976gNFq-67P6LN0S1V3a3GZ2jEhCR_y098O3L9qP2qYLO_4ED</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Saint Malo</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/indignonsnouspaysdesaintmalo" target="_blank" rel="me">indignonsnouspaysdesaintmalo</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Sud Est</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy" target="_blank" rel="me">CjQKIP6-L39DF7s_tNVTmbCQ7qI2M4H89OvlfCKoLvso133jEhCLA5-_nGXXq-73TbWETfuy</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">CENTRE-VAL DE LOIRE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+jR9bqrSbZVdkM2E8" target="_blank" rel="me">+jR9bqrSbZVdkM2E8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">41 - Loir-et-Cher</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+7moVpfgguQwyZjJk" target="_blank" rel="me">+7moVpfgguQwyZjJk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">45 - Loiret</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+Utc-XCqfvSphZjhk" target="_blank" rel="me">+Utc-XCqfvSphZjhk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">CORSICA</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" rel="me">+6nGU1MKqF1E1MTI0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">GRAND EST</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+DwayRkLGjxBhYjc0" target="_blank" rel="me">+DwayRkLGjxBhYjc0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">51 - Marne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Reims</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+5LH0u6BO-dU1ZTNk" target="_blank" rel="me">+5LH0u6BO-dU1ZTNk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">57 - Moselle</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Metz</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+KzGj90TwhckxZmM8" target="_blank" rel="me">+KzGj90TwhckxZmM8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">67 - Bas-Rhin</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://link.infini.fr/10sept25basrhin" target="_blank" rel="me">10sept25basrhin</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">68 - Haute-Rhin</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+dAf_whfVF2s1MGRk" target="_blank" rel="me">+dAf_whfVF2s1MGRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">88 - Vosges</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+KsMKfMWAJpxhZjFk" target="_blank" rel="me">+KsMKfMWAJpxhZjFk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">HAUTS-DE-FRANCE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+07fmAOi30jA1ODhk" target="_blank" rel="me">+07fmAOi30jA1ODhk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">ÎLE-DE-FRANCE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/retlIDF" target="_blank" rel="me">retlIDF</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">75 - Paris</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+9gxXN61OSBw4YWRk" target="_blank" rel="me">+9gxXN61OSBw4YWRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">77 - Seine-et-Marne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+rkUgIevw6EM3ZDY0" target="_blank" rel="me">+rkUgIevw6EM3ZDY0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">78 - Yvelines</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+q52fTby8owBmNTA0" target="_blank" rel="me">+q52fTby8owBmNTA0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Saint-Quentin-en-Yvelines Rambouillet</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+I5tJh1d7rbxhNmU8" target="_blank" rel="me">+I5tJh1d7rbxhNmU8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">91 - Essonne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+ZMP8cVktBdQ2YjM0" target="_blank" rel="me">+ZMP8cVktBdQ2YjM0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">92 - Hauts-de-Seine</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+iMFbUWAScFw5MzFk" target="_blank" rel="me">+iMFbUWAScFw5MzFk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">93 - Seine-Saint-Denis</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+eo1IAGG_uV9lN2Zk" target="_blank" rel="me">+eo1IAGG_uV9lN2Zk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">94 - Val-de-Marne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+MVVfx3Afj6AzNzFk" target="_blank" rel="me">+MVVfx3Afj6AzNzFk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">NORMANDIE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+NY521X2MIxxhNzQ0" target="_blank" rel="me">+NY521X2MIxxhNzQ0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">14 - Calvados</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bocage virois</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+ruRhzuXcrO9iNzI8" target="_blank" rel="me">+ruRhzuXcrO9iNzI8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Caen</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+Yz3dBigEr5NmMTg0" target="_blank" rel="me">+Yz3dBigEr5NmMTg0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">27 - Eure</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bernay</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+            <li class="facebookg">
+                <p>Facebook - Groupe</p>
+                <ul>
+                    
+                        <li><a href="https://www.facebook.com/groups/3708800519421936/" target="_blank" rel="me">10 Septembre - Bernay</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">50 - Manche</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bayeux</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+W78yndkfVjdhNGM8" target="_blank" rel="me">+W78yndkfVjdhNGM8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Cherbourg</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8" target="_blank" rel="me">CjQKIAdZkl1GoTx545haTv_x-9D1IyO3VFOVLUPXANT9QfQXEhDF3WhXeMrSYhMMl2L4Ctb8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Saint-lô</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+jGHHctdUMI01YzU0" target="_blank" rel="me">+jGHHctdUMI01YzU0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Sud Manche</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+Hgpjxnkf-V84MDE8" target="_blank" rel="me">+Hgpjxnkf-V84MDE8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">61 - Orne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Alençon</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+rVnxGVSLZikxMDc8" target="_blank" rel="me">+rVnxGVSLZikxMDc8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">76 - Seine-Maritime</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Dieppe</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+wxsSWr1Oz05kMzNk" target="_blank" rel="me">+wxsSWr1Oz05kMzNk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">NOUVELLE-AQUITAINE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+fFVATyvoOWowZjA0" target="_blank" rel="me">+fFVATyvoOWowZjA0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">16 - Charente</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Angoulème</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+U8ruFJrFrhs1NWQ8" target="_blank" rel="me">+U8ruFJrFrhs1NWQ8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">17 - Charente-Maritime</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">La Rochelle</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6059" target="_blank" rel="me">c/1698890845/6059</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">19 - Corrèze</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Haute-corrèze</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+D1C6bDew459hMmJk" target="_blank" rel="me">+D1C6bDew459hMmJk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">23 - Creuse</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+K8iTCXsU-cM0ZWZk" target="_blank" rel="me">+K8iTCXsU-cM0ZWZk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bénévent-Grand Bourg</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR--4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4" target="_blank" rel="me">CjQKIHNfdBo8Wwbl4lonLAfekh1B3yzBiMIR&mdash;4ccbmaMzGOEhDxlIT4o_zJJK7i5gZERPz4</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">24 - Dordogne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+S5lNMsTJ43JhNWE0" target="_blank" rel="me">+S5lNMsTJ43JhNWE0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Saint-yrieix-la-perche</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+5gHUQ7JNrwMyMjc8" target="_blank" rel="me">+5gHUQ7JNrwMyMjc8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">33 - Gironde</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+qk_X__IUUQphNzY8" target="_blank" rel="me">+qk_X__IUUQphNzY8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bordeaux</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/2791813653/50" target="_blank" rel="me">c/2791813653/50</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Langon</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/2791813653/52" target="_blank" rel="me">c/2791813653/52</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Libourne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/2791813653/51" target="_blank" rel="me">c/2791813653/51</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Sainte Foy la Grande</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/2791813653/179" target="_blank" rel="me">c/2791813653/179</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">64 - Pyrénées-Atlantiques</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bayonne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6295" target="_blank" rel="me">c/1698890845/6295</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Haut béarn</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+3wswVam9MC0wMjNk" target="_blank" rel="me">+3wswVam9MC0wMjNk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Pau</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6062" target="_blank" rel="me">c/1698890845/6062</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">79 - Deux-Sèvres</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Bressuire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6144" target="_blank" rel="me">c/1698890845/6144</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Niort</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6057" target="_blank" rel="me">c/1698890845/6057</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Thouars</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/12612" target="_blank" rel="me">c/1698890845/12612</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">86 - Vienne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+-Qz5dhr_0cYxODNk" target="_blank" rel="me">+-Qz5dhr_0cYxODNk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Châtellerault</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/12334" target="_blank" rel="me">c/1698890845/12334</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Poitiers</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/c/1698890845/6055" target="_blank" rel="me">c/1698890845/6055</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">87 - Haute-Vienne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+rFlmNBHXkDg5MjRk" target="_blank" rel="me">+rFlmNBHXkDg5MjRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Périgord Limousin</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="signal">
+                <p>Signal</p>
+                <ul>
+                    
+                        <li><a href="https://signal.group/#CjQKIFYvfaowBQvDSse44uFXLAYN_wVaIXatHpa4zVgJbZcUEhCnsKjxuA7kO-i3R1xN0aWH" target="_blank" rel="me">Périgord Limousin 10S25</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">OCCITANIE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/collectifsunis31" target="_blank" rel="me">collectifsunis31</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">12 - Aveyron</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+q3dsx7KFvWI4Yjk0" target="_blank" rel="me">+q3dsx7KFvWI4Yjk0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">OUTRE MER</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+k6w3Bdy4Nr81MzQ8" target="_blank" rel="me">+k6w3Bdy4Nr81MzQ8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">GUYANE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+BZyC3CpGCIZhY2Q0" target="_blank" rel="me">+BZyC3CpGCIZhY2Q0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">LA RÉUNION</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+l81KX9i3Z39hZWU8" target="_blank" rel="me">+l81KX9i3Z39hZWU8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">MARTINIQUE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+-G6drNd53xQwYTI0" target="_blank" rel="me">+-G6drNd53xQwYTI0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">PAYS DE LA LOIRE</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" rel="me">+UlH4Zr3yf5FjMmRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">44 - Loire-Atlantique</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+UlH4Zr3yf5FjMmRk" target="_blank" rel="me">+UlH4Zr3yf5FjMmRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Ancenis</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+f5ay1J6hmUg5ZGY0" target="_blank" rel="me">+f5ay1J6hmUg5ZGY0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Carquefou</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+b-M-uMmOhzNhOWY8" target="_blank" rel="me">+b-M-uMmOhzNhOWY8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">L&#8217;Île de Nantes</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+4Hml85LTV8c1ZjA0" target="_blank" rel="me">+4Hml85LTV8c1ZjA0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Malakoff saint Donatien</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+nKqjGihlVlM5ZDBk" target="_blank" rel="me">+nKqjGihlVlM5ZDBk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Malakoff St donatien</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+nKqjGihlVlM5ZDBk" target="_blank" rel="me">+nKqjGihlVlM5ZDBk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Nantes Agglomération</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+FVgpAoiS7-IzMTA0" target="_blank" rel="me">+FVgpAoiS7-IzMTA0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Nantes Nord</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+pXKibPlTgwFkNzBk" target="_blank" rel="me">+pXKibPlTgwFkNzBk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Nantes sud Loire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+M6jHtN4YMmQ2OGU8" target="_blank" rel="me">+M6jHtN4YMmQ2OGU8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Reze</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+7ifqGHbsJ6QwMDlk" target="_blank" rel="me">+7ifqGHbsJ6QwMDlk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Saint Nazaire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+KtuU08JRaV4yOWI0" target="_blank" rel="me">+KtuU08JRaV4yOWI0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">49 - Maine-et-Loire</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+sH1EnfLBhMY4M2M0" target="_blank" rel="me">+sH1EnfLBhMY4M2M0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Cholet</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+W78yndkfVjdhNGM8" target="_blank" rel="me">+W78yndkfVjdhNGM8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">53 - Mayenne</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+a8Tv2s6foOxhNzE0" target="_blank" rel="me">+a8Tv2s6foOxhNzE0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">72 - Sarthe</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+hh9tPqdATphiZjE8" target="_blank" rel="me">+hh9tPqdATphiZjE8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">85 - Vendée</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+_plGCEAGAnZlYmQ8" target="_blank" rel="me">+_plGCEAGAnZlYmQ8</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+                <li>
+        <p class="font-yellow">PROVENCE-ALPES-CÔTE D&#8217;AZUR</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+6nGU1MKqF1E1MTI0" target="_blank" rel="me">+6nGU1MKqF1E1MTI0</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">13 - Bouches-du-Rhône</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Marseille</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+</ul>    </li>
+    
+        <li>
+        <p class="font-yellow">Marseille EST</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/+K0Nsa7fcLcdlNWRk" target="_blank" rel="me">+K0Nsa7fcLcdlNWRk</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>    
+        <li>
+        <p class="font-yellow">Salon-de-Provence</p>
+        <ul>
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+            <li class="telegram">
+                <p>Telegram</p>
+                <ul>
+                    
+                        <li><a href="https://t.me/indignonsnoussalon" target="_blank" rel="me">indignonsnoussalon</a></li>
+                    
+                </ul>
+            </li>
+        
+    
+        
+    
+        
+    
+</ul>    </li>            
+        </ul>
 	</li>
-</ul>
-

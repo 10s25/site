@@ -28,7 +28,7 @@ jobs:
 
       - name: Import shtml
         run: |
-          wget -O "global/ssi/groupes.shtml" https://10s25.ovh/cms/?page=groupes
+          wget -O "global/ssi/groupes.shtml" https://10s25.ovh/cms/?page=geoliens
 
       - name: Commit changes
         run: |
