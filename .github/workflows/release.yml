@@ -3,7 +3,7 @@ name: Release
 on:
   push:
     tags:
-      - 'v*'
+      - 'last'
   
   workflow_dispatch:
 
@@ -18,31 +18,15 @@ jobs:
       - name: Checkout
         id: checkout
         uses: actions/checkout@v4
-        with:
-          sparse-checkout: |
-            favicon.ico
-            index.html
-            README.md
-            global
-            local
-          sparse-checkout-cone-mode: false
 
-      - name: Get latest tag
-        id: get_latest_tag
+      - name: Clean
         run: |
-            set -e
-            # git fetch --tags-f  > /dev/null 2>&1
-            git fetch --tags -f > /dev/null
-            latest=$(git describe --tags `git rev-list --tags --max-count=1`)
-            echo "latest_tag=$latest" >> "$GITHUB_OUTPUT"
-            echo "💡 The ${{ github.repository }} repository has been cloned to the runner. Last tag is $latest"
+          rm -rf .github
 
       - name: Create Release
-        env: 
-          TAG_NAME: "${{ steps.get_latest_tag.outputs.latest_tag }}"
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{env.TAG_NAME}}
-          name: Release ${{env.TAG_NAME}}
+          tag_name: last
+          name: Dernière version
           draft: false
           prerelease: false
