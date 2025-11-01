@@ -319,6 +319,12 @@ li.telegram {
 	padding-left: 50px;
 	overflow: hidden;
 }
+li.discord {
+	background-image: url(/global/img/discord.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
 li.instagram {
 	background-image: url(/global/img/instagram.svg);
 	background-size: 30px;
@@ -369,6 +375,12 @@ li.signal {
 }
 li.site {
 	background-image: url(/global/img/site.svg);
+	background-size: 30px;
+	padding-left: 50px;
+	overflow: hidden;
+}
+li.tpv {
+	background-image: url(/global/img/tpv.svg);
 	background-size: 30px;
 	padding-left: 50px;
 	overflow: hidden;
